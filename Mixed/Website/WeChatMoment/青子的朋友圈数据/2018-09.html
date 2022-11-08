@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>2018-09_青子</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimal-ui">
+<style type="text/css">
+body { font-size:14px; line-height: 120%;text-align: center; color:#333;position:relative;background:#fcfcfc;}
+a { color: #333; text-decoration: none;}
+a:hover { text-decoration: none;}
+* { margin: 0; padding: 0; border: none;}
+.clearfix:after { content:"."; display:block; height:0; clear:both; visibility:hidden}
+.clearfix { *height:1%;}
+#list { margin: 0 auto; text-align: left;max-width:640px;background:#fff; box-shadow: rgba(60, 60, 60, 0.22) 0px 0px 5px;}
+.box { border-bottom: 1px solid #eee; position: relative;padding:1rem;}
+.box:hover .close { display: block;}
+.head {float: left;width:10%;height:0px;padding-bottom:10%;overflow:hidden;background-position: center;center;background-size:cover;margin-right:2%;border-radius:10%;}
+.content { float: left; width:88%;}
+.main { margin-bottom: 10px;}
+.share{background:#f7f7f7;padding:3%;vertical-align:middle;}
+.share .text{float:left;width:85%;display:inline-block;font-size:0.95rem;color:#4966b9;line-height:1.3rem;}
+.share .text span{font-size:0.8rem;line-height:28px;font-weight:0;color:#7d97e1;}
+.share .img{float:left;width:12%;margin-right:2%;display:inline-block;}
+.share .img img{width:100%;}
+.pic_0{clear:both;}
+.pic_1{overflow:hidden;max-height:40rem;}
+.pic_1 .pic{width:65%;}
+.pic_1 video{width:65%;}
+.pic_n .pic{width:32.2%;display:inline-block;height:0px;padding-bottom:32.8%;overflow:hidden;background-position: center;center;background-size:cover;}
+.pic img{width:100%;}
+.txt {line-height:1.6rem;font-size:1rem;margin-bottom:1rem;}
+.txt img{width:1.2rem;vertical-align:top;margin:0 0.1rem;margin-top:0.2rem;}
+.user { color: #295c9d; line-height:1.6rem;}
+.info { height: 20px; line-height: 19px; font-size:0.6rem; margin: 0 0 10px 0;}
+.info .time { color: #ccc; float:left; height: 20px;}
+.info .lib { color:#175bb1; float:right; height: 20px;}
+.zan {background:#fdfdfd;color:#175bb1;line-height:1.5rem;font-size:0.6rem;margin:0 5px;padding:5px;font-size:0.8rem;}
+.com {background:#fdfdfd;line-height:1.5rem;font-size:0.8rem;margin:0 5px;padding:5px;border-top:1px solid #eee;word-break:break-all;}
+.com img{width:1rem;vertical-align:top;margin:0 0.1rem;margin-top:0.3rem;}
+.com span{color:#175bb1;}
+.black_overlay{display: none;position: absolute;width: 100%;height: 100%;background-color:rgba(0,0,0,0.95);z-index: 1001;}
+.white_content{display:none;position:fixed;width:100%;height:100%;z-index:1002;overflow:auto;text-align:center;align-items: center;margin:0 auto;background-position: center;center;background-size:100%;background-repeat:no-repeat;}
+#f_pic{margin:0 auto;max-width:640px;width:100%;}
+#l_c{display:block;position:fixed;left:0;top:50%;padding:1rem;color:#fff;background:rgba(255,255,255,0.3);font-size:2rem;line-height:4rem;z-index:9999;}
+#r_c{display:block;position:fixed;right:0;top:50%;padding:1rem;color:#fff;background:rgba(255,255,255,0.3);;font-size:2rem;line-height:4rem;z-index:9999;}
+#wz{color:#175bb1;background:rgba(0,0,0,0.3);padding:10px;right:0px;top:0px;position:fixed;}
+.open{position:absolute;top:1rem;right:5rem;color:#f1f1f1;}
+.copy{position:absolute;top:1rem;right:1rem;color:#f1f1f1;}
+#input{position: absolute;top: 0;left: 0;opacity: 0;z-index: -10;}
+</style>
+<script>
+var URL = decodeURIComponent(window.location.href).replace('file:///','');
+Dir = URL.substr(0,URL.lastIndexOf("/"));
+function CopyFile(obj,filename){
+      var input = document.getElementById("input");
+      input.value = Dir+"/"+filename;
+      input.select(); 
+      document.execCommand("copy"); 
+	  if(obj.style.color=='rgb(51, 51, 51)'){
+	  obj.style.color='#f1f1f1';
+	  }else{
+	  obj.style.color='#aaa';
+	  }
+}
+function CopyText(obj,text){
+      var input = document.getElementById("input");
+      input.value = text;
+      input.select(); 
+      document.execCommand("copy"); 
+	  if(obj.style.color=='rgb(51, 51, 51)'){
+	  obj.style.color='#f1f1f1';
+	  }else{
+	  obj.style.color='#aaa';
+	  }
+}
+</script>
+</head>
+<body>
+<textarea id="input"></textarea>
+<div id="fade" class="black_overlay"></div>
+<div id="light" class="white_content" onclick="document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"><img id="f_pic" src="" style="margin-top:0;" /><div id="l_c" onclick="prev();">&lt;</div><div id="r_c" onclick="next();">&gt;</div></div>
+<div id="list"><div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_upwsz96fsfri22.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">青子</p>
+<p class="txt">很好的资源！
+			</p>
+			<a class="copy" onclick="CopyText(this,'很好的资源！')" >复制文本</a><div class="share"><a href="http://mp.weixin.qq.com/s?__biz=MzU3MTQ2MDIzOA==&mid=2247484217&idx=2&sn=ae4c5016f2bf71810922f402d77f958f&chksm=fcde9cd8cba915cebc97a6cf4225c5df65fd8a65ed026fb05107e2ca2145a1f335e78e6753fb&mpshare=1&scene=2&srcid=0928KhmamXTR7RNah3NJZvGa#rd" target="_blank"><div class="img"><img src="http://szmmsns.qpic.cn/mmsns/rZ9TAJYwnRyuIR3sRBms16qRSkFU5TtKS4uVIOoN4U9012PTlgdSrlOL2DI8jtqDsKkEEDAGg4Y/150" alt=""/></div><div class="text">【第二辑】快来领取50首配练习的英文教学歌曲！<br/><span></span></div></a><div class="pic_0"></div></div>
+</div>
+                <div class="info clearfix">
+                    <span class="time">2018-09-28 15:52:53</span>
+                </div>            </div>
+        </div>
+<div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_upwsz96fsfri22.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">青子</p>
+<p class="txt">由于新学校还在紧锣密鼓地建设中，已经确定推迟搬迁。教室和学生宿舍都装上了中央空调，学生宿舍上铺是床下铺是桌子和柜子，六人一间，两个卫生间的配置堪比大学标准。听说教室里的多媒体超级棒，期待中……
+			</p>
+			<a class="copy" onclick="CopyText(this,'由于新学校还在紧锣密鼓地建设中，已经确定推迟搬迁。教室和学生宿舍都装上了中央空调，学生宿舍上铺是床下铺是桌子和柜子，六人一间，两个卫生间的配置堪比大学标准。听说教室里的多媒体超级棒，期待中……')" >复制文本</a>
+                    <div class="pic_n">
+<span class="pic" data-pic="2018/09/28_093138_263_1.jpg" style="background-image:url(2018/09/28_093138_263_1.jpg);"></span>
+<span class="pic" data-pic="2018/09/28_093138_263_2.jpg" style="background-image:url(2018/09/28_093138_263_2.jpg);"></span>
+<span class="pic" data-pic="2018/09/28_093138_263_3.jpg" style="background-image:url(2018/09/28_093138_263_3.jpg);"></span>
+<span class="pic" data-pic="2018/09/28_093138_263_4.jpg" style="background-image:url(2018/09/28_093138_263_4.jpg);"></span>
+<a class="open" onclick="CopyFile(this,'2018/09/')" >复制路径</a></div>
+                </div>
+                <div class="info clearfix">
+                    <span class="time">2018-09-28 09:31:38</span>
+                </div>            </div>
+        </div>
+<div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_upwsz96fsfri22.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">青子</p>
+<p class="txt">
+			</p>
+			<div class="share"><a href="http://mp.weixin.qq.com/s?__biz=MzI0NjIyMzEyNQ==&mid=2247495366&idx=5&sn=fc1adb7c20fd13d446f6e50510813dec&chksm=e94036bcde37bfaa7e1822d91948449dff1982377e68bf9b5a9a77d696ff2b65fe21ef990bea&mpshare=1&scene=2&srcid=0922TlEzXfKdWwupfc9UipXX#rd" target="_blank"><div class="img"><img src="http://shmmsns.qpic.cn/mmsns/CkBYF6IYNs0QAjCV0JRcCmWljm0vsSqPTED5K9x7ooKwGYTUnjtdxWmoHPu8mqTaT6ia5eya1rhc/150" alt=""/></div><div class="text">用英文介绍中秋节的起源和习俗，传播中国传统文化<br/><span></span></div></a><div class="pic_0"></div></div>
+</div>
+                <div class="info clearfix">
+                    <span class="time">2018-09-22 11:46:08</span>
+                </div>            </div>
+        </div>
+<div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_upwsz96fsfri22.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">青子</p>
+<p class="txt">
+			</p>
+			<div class="share"><a href="https://m.lawnewscn.com/live/201815368345543239&type=thirdParty?isappinstalled=0&from=timeline&from=timeline" target="_blank"><div class="img"><img src="" alt=""/></div><div class="text">直播| 衡中论坛第三场|优秀心理教师学生心理辅导报告 | 法制<br/><span></span></div></a><div class="pic_0"></div></div>
+</div>
+                <div class="info clearfix">
+                    <span class="time">2018-09-16 10:41:05</span>
+                </div>            </div>
+        </div>
+<div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_upwsz96fsfri22.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">青子</p>
+<p class="txt">马红梅，我的大学舍友，一位外表柔弱，内心坚强的女子。身患重病，笔耕不止，并完成了一部心理路程的小说《爱之惑》[强][玫瑰][玫瑰][玫瑰][爱心][爱心][爱心]
+			</p>
+			<a class="copy" onclick="CopyText(this,'马红梅，我的大学舍友，一位外表柔弱，内心坚强的女子。身患重病，笔耕不止，并完成了一部心理路程的小说《爱之惑》[强][玫瑰][玫瑰][玫瑰][爱心][爱心][爱心]')" >复制文本</a><div class="share"><a href="http://mp.weixin.qq.com/s?__biz=MzIwODM4ODMzMw==&mid=2247488091&idx=2&sn=e17804209a3261a5a945a95a01819180&chksm=9702bbd9a07532cf5b399cb388c377eb84554317026a94650137ed0c0c770b858ab6b5222f0d&mpshare=1&scene=2&srcid=0912XKoRtMwKLGKJC54mjdw4#rd" target="_blank"><div class="img"><img src="http://szmmsns.qpic.cn/mmsns/rZ9TAJYwnRyuIR3sRBms1zMCOibnZSlPIhPwTHF0buStuJGvHIE5Ot7ftxBmOibkw3FVBiayD8BV9Y/150" alt=""/></div><div class="text">马红梅：面带微笑 用乐观之心去拥抱阳光<br/><span></span></div></a><div class="pic_0"></div></div>
+</div>
+                <div class="info clearfix">
+                    <span class="time">2018-09-13 09:06:52</span>
+                </div><div class="com clearfix"><span>[09-13 09:07] 青子：</span>对此书感兴趣的朋友，可以复制以下链接购买https://detail.m.tmall.com/item.htm?spm=a1z10.3-b.w4011-8570064183.12.31643975JqFhTq&id=576477824605&rn=121afeaff80731a1fdc4a94c446356a1&abbucket=16<br/><span>[09-13 09:08] 青子：</span>长期的治疗也让马老师萌生了慈善之心，借由自己第一本小说《爱之惑》的出版，马红梅老师打算将所获稿费献给慈善，将自己的乐观之心传递出去，让更多的有需要的人可以得到关怀。<br/></div>            </div>
+        </div>
+</div>
+<div id="wz"></div>
+<script type="text/JavaScript" language="javascript">
+window.onresize = function(){
+	location.reload();
+}
+function AddImgClickEvent()
+{
+	
+	var objs = document.getElementsByClassName("pic");
+	sum = objs.length;
+	for(var i=0;i<objs.length;i++)
+	{
+		objs[i].id=i+1;
+		objs[i].onclick=function()
+		{
+			now_p = parseInt(this.getAttribute("id"))-1;
+			now_n = parseInt(this.getAttribute("id"))+1;
+			
+			//document.getElementById('f_pic').style.marginTop=0+"px";
+			document.getElementById('f_pic').src = this.getAttribute("data-pic");
+			xzpic()
+		}
+	}
+}
+function xzpic()
+{
+	document.getElementById('f_pic').style.marginTop=0+"px";
+	var windowW = document.documentElement.clientWidth;
+	if(windowW>640){
+		windowW=640;
+	}
+	var windowH = document.documentElement.clientHeight;
+	var realWidth = document.getElementById('f_pic').naturalWidth;
+	var realHeight = document.getElementById('f_pic').naturalHeight;
+	var n_h=realHeight*windowW/realWidth;
+	if(n_h<windowH){
+		document.getElementById('f_pic').style.marginTop=((windowH-n_h)/2)+ 'px';
+	}else{
+		document.getElementById('f_pic').style.marginTop=0+"px";
+	}
+	document.getElementById('light').style.display='block';
+	document.getElementById('fade').style.display='block'
+}
+AddImgClickEvent();
+function boxClickEvent()
+{
+var obj_box = document.getElementsByClassName("box");
+for(var i=0;i<obj_box.length;i++)
+	{
+		obj_box[i].index=i+1;
+		obj_box[i].onmouseover=function()
+		{
+			document.getElementById('wz').innerHTML=this.index+" / "+obj_box.length;
+		}
+	}
+}
+
+boxClickEvent();
+function next()
+{
+	if(now_n>sum) return;
+	document.getElementById('f_pic').src = document.getElementById(now_n).getAttribute("data-pic");
+	location.href = "#"+now_n;
+	xzpic();
+	now_n=now_n+1;
+	now_p=now_p+1;
+	stopBubbling(event);
+}
+function prev()
+{
+	if(now_p<1) return;
+	document.getElementById('f_pic').src = document.getElementById(now_p).getAttribute("data-pic");
+	location.href = "#"+now_p;
+	xzpic();
+	now_n=now_n-1;
+	now_p=now_p-1;
+	stopBubbling(event);
+	
+}
+function stopBubbling(e) {
+	e = window.event || e;
+	if (e.stopPropagation) {
+		e.stopPropagation();
+	} else {
+		e.cancelBubble = true;
+	}
+}
+window.onload = function(){
+	document.onkeydown = function(ev){
+	var ev = ev || window.event;
+	switch(ev.keyCode){
+		case 37://left����
+		prev();
+		break;
+		case 39://right
+		next();
+		break;
+}
+}
+}
+</script>
+</body>
+</html>

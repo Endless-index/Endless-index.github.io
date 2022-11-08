@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>2018-09_汤锋</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimal-ui">
+<style type="text/css">
+body { font-size:14px; line-height: 120%;text-align: center; color:#333;position:relative;background:#fcfcfc;}
+a { color: #333; text-decoration: none;}
+a:hover { text-decoration: none;}
+* { margin: 0; padding: 0; border: none;}
+.clearfix:after { content:"."; display:block; height:0; clear:both; visibility:hidden}
+.clearfix { *height:1%;}
+#list { margin: 0 auto; text-align: left;max-width:640px;background:#fff; box-shadow: rgba(60, 60, 60, 0.22) 0px 0px 5px;}
+.box { border-bottom: 1px solid #eee; position: relative;padding:1rem;}
+.box:hover .close { display: block;}
+.head {float: left;width:10%;height:0px;padding-bottom:10%;overflow:hidden;background-position: center;center;background-size:cover;margin-right:2%;border-radius:10%;}
+.content { float: left; width:88%;}
+.main { margin-bottom: 10px;}
+.share{background:#f7f7f7;padding:3%;vertical-align:middle;}
+.share .text{float:left;width:85%;display:inline-block;font-size:0.95rem;color:#4966b9;line-height:1.3rem;}
+.share .text span{font-size:0.8rem;line-height:28px;font-weight:0;color:#7d97e1;}
+.share .img{float:left;width:12%;margin-right:2%;display:inline-block;}
+.share .img img{width:100%;}
+.pic_0{clear:both;}
+.pic_1{overflow:hidden;max-height:40rem;}
+.pic_1 .pic{width:65%;}
+.pic_1 video{width:65%;}
+.pic_n .pic{width:32.2%;display:inline-block;height:0px;padding-bottom:32.8%;overflow:hidden;background-position: center;center;background-size:cover;}
+.pic img{width:100%;}
+.txt {line-height:1.6rem;font-size:1rem;margin-bottom:1rem;}
+.txt img{width:1.2rem;vertical-align:top;margin:0 0.1rem;margin-top:0.2rem;}
+.user { color: #295c9d; line-height:1.6rem;}
+.info { height: 20px; line-height: 19px; font-size:0.6rem; margin: 0 0 10px 0;}
+.info .time { color: #ccc; float:left; height: 20px;}
+.info .lib { color:#175bb1; float:right; height: 20px;}
+.zan {background:#fdfdfd;color:#175bb1;line-height:1.5rem;font-size:0.6rem;margin:0 5px;padding:5px;font-size:0.8rem;}
+.com {background:#fdfdfd;line-height:1.5rem;font-size:0.8rem;margin:0 5px;padding:5px;border-top:1px solid #eee;word-break:break-all;}
+.com img{width:1rem;vertical-align:top;margin:0 0.1rem;margin-top:0.3rem;}
+.com span{color:#175bb1;}
+.black_overlay{display: none;position: absolute;width: 100%;height: 100%;background-color:rgba(0,0,0,0.95);z-index: 1001;}
+.white_content{display:none;position:fixed;width:100%;height:100%;z-index:1002;overflow:auto;text-align:center;align-items: center;margin:0 auto;background-position: center;center;background-size:100%;background-repeat:no-repeat;}
+#f_pic{margin:0 auto;max-width:640px;width:100%;}
+#l_c{display:block;position:fixed;left:0;top:50%;padding:1rem;color:#fff;background:rgba(255,255,255,0.3);font-size:2rem;line-height:4rem;z-index:9999;}
+#r_c{display:block;position:fixed;right:0;top:50%;padding:1rem;color:#fff;background:rgba(255,255,255,0.3);;font-size:2rem;line-height:4rem;z-index:9999;}
+#wz{color:#175bb1;background:rgba(0,0,0,0.3);padding:10px;right:0px;top:0px;position:fixed;}
+.open{position:absolute;top:1rem;right:5rem;color:#f1f1f1;}
+.copy{position:absolute;top:1rem;right:1rem;color:#f1f1f1;}
+#input{position: absolute;top: 0;left: 0;opacity: 0;z-index: -10;}
+</style>
+<script>
+var URL = decodeURIComponent(window.location.href).replace('file:///','');
+Dir = URL.substr(0,URL.lastIndexOf("/"));
+function CopyFile(obj,filename){
+      var input = document.getElementById("input");
+      input.value = Dir+"/"+filename;
+      input.select(); 
+      document.execCommand("copy"); 
+	  if(obj.style.color=='rgb(51, 51, 51)'){
+	  obj.style.color='#f1f1f1';
+	  }else{
+	  obj.style.color='#aaa';
+	  }
+}
+function CopyText(obj,text){
+      var input = document.getElementById("input");
+      input.value = text;
+      input.select(); 
+      document.execCommand("copy"); 
+	  if(obj.style.color=='rgb(51, 51, 51)'){
+	  obj.style.color='#f1f1f1';
+	  }else{
+	  obj.style.color='#aaa';
+	  }
+}
+</script>
+</head>
+<body>
+<textarea id="input"></textarea>
+<div id="fade" class="black_overlay"></div>
+<div id="light" class="white_content" onclick="document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"><img id="f_pic" src="" style="margin-top:0;" /><div id="l_c" onclick="prev();">&lt;</div><div id="r_c" onclick="next();">&gt;</div></div>
+<div id="list"><div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_zyvzsehojaf322.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">汤锋</p>
+<p class="txt">请家长积极参与，校、企、生共努力把现代学徒制试点工作做好。
+			</p>
+			<a class="copy" onclick="CopyText(this,'请家长积极参与，校、企、生共努力把现代学徒制试点工作做好。')" >复制文本</a>
+                    <div class="pic_1">
+<img class="pic" data-pic="2018/09/28_113016_217_1.jpg" src="2018/09/28_113016_217_1.jpg"/>
+<a class="open" onclick="CopyFile(this,'2018/09/')" >复制路径</a></div>
+                </div>
+                <div class="info clearfix">
+                    <span class="time">2018-09-28 11:30:16</span>
+                </div>            </div>
+        </div>
+<div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_zyvzsehojaf322.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">汤锋</p>
+<p class="txt">校企合作企业广州天懋信息系统股份有限公司招聘Web前端开发、软件测试、技术支持等岗位具体要求如下：【Web前端开发工程师】职位描述：1、根据Web前端开发需求编写需求文档、概要设计文档和详细设计文档；2、负责功能模块的设计、开发；3、进行新技术的预研工作，技术交流与分享。职位要求：1、1年以上Web前端UI开发工作经验；2、精通JavaScript，精通JQuery等框架，熟练使用Ajax/Json/DOM；3、精通HMTL、CSS，具备一定的页面设计能力，熟悉bootstrap；4、熟悉echarts、highcharts、d3等常用js库；5、有能力编写或者改造一些简单的js控件；能解决常见的浏览器兼容性问题；6、熟悉服务器端编程语言（如Java等）并有实践经验优先考虑；7、思路清晰，优秀的分析问题和解决问题的能力；具有良好的沟通能力和团队合作精神。【软件测试工程师】职位描述：1、负责相关产品的软件测试，负责制定测试计划以及方案；2、编写测试计划、规划详细的测试方案、编写测试用例、执行测试工作，提交测试报告；3、根据测试计划搭建和维护项目测试环境、更新测试软件，部署测试系统。职位要求：1、计算机、电子、通信、信息、数学等相关专业，大专或以上学历；2、对软件测试质量保证、软件测试流程和方法有良好的理解和积累；3、熟悉一种或几种缺陷管理工具及测试流程管理工具（如禅道等）；4、熟悉SQL语言，了解TCP/IP网络相关协议；5、良好的沟通能力与团队协作能力，高度的工作责任心。【技术支持工程师】职位描述：负责公司产品的安装部署、文档处理、客户现场支持等事宜。职位要求：1、了解服务器各类硬件，能独立安装操作系统。2、了解linux运维操作。3、了解Web服务器工作原理以及简单数据库操作。4、良好的团队精神,工作认真踏实，主动积极。有意向者请将简历发到邮箱：610880699@qq.com
+			</p>
+			<a class="copy" onclick="CopyText(this,'校企合作企业广州天懋信息系统股份有限公司招聘Web前端开发、软件测试、技术支持等岗位具体要求如下：【Web前端开发工程师】职位描述： 1、根据Web前端开发需求编写需求文档、概要设计文档和详细设计文档； 2、负责功能模块的设计、开发； 3、进行新技术的预研工作，技术交流与分享。职位要求： 1、1年以上Web前端UI开发工作经验； 2、精通JavaScript，精通JQuery等框架，熟练使用Ajax/Json/DOM； 3、精通HMTL、CSS，具备一定的页面设计能力，熟悉bootstrap； 4、熟悉echarts、highcharts、d3等常用js库； 5、有能力编写或者改造一些简单的js控件；能解决常见的浏览器兼容性问题； 6、熟悉服务器端编程语言（如Java等）并有实践经验优先考虑； 7、思路清晰，优秀的分析问题和解决问题的能力；具有良好的沟通能力和团队合作精神。【软件测试工程师】职位描述： 1、负责相关产品的软件测试，负责制定测试计划以及方案； 2、编写测试计划、规划详细的测试方案、编写测试用例、执行测试工作，提交测试报告； 3、根据测试计划搭建和维护项目测试环境、更新测试软件，部署测试系统。职位要求： 1、计算机、电子、通信、信息、数学等相关专业，大专或以上学历； 2、对软件测试质量保证、软件测试流程和方法有良好的理解和积累； 3、熟悉一种或几种缺陷管理工具及测试流程管理工具（如禅道等）； 4、熟悉SQL语言，了解TCP/IP网络相关协议； 5、良好的沟通能力与团队协作能力，高度的工作责任心。【技术支持工程师】职位描述：负责公司产品的安装部署、文档处理、客户现场支持等事宜。职位要求： 1、了解服务器各类硬件，能独立安装操作系统。 2、了解linux运维操作。 3、了解Web服务器工作原理以及简单数据库操作。 4、良好的团队精神,工作认真踏实，主动积极。有意向者请将简历发到邮箱：610880699@qq.com')" >复制文本</a>
+                    <div class="pic_n">
+<span class="pic" data-pic="2018/09/20_090806_218_1.jpg" style="background-image:url(2018/09/20_090806_218_1.jpg);"></span>
+<span class="pic" data-pic="2018/09/20_090806_218_2.jpg" style="background-image:url(2018/09/20_090806_218_2.jpg);"></span>
+<span class="pic" data-pic="2018/09/20_090806_218_3.jpg" style="background-image:url(2018/09/20_090806_218_3.jpg);"></span>
+<span class="pic" data-pic="2018/09/20_090806_218_4.jpg" style="background-image:url(2018/09/20_090806_218_4.jpg);"></span>
+<span class="pic" data-pic="2018/09/20_090806_218_5.jpg" style="background-image:url(2018/09/20_090806_218_5.jpg);"></span>
+<span class="pic" data-pic="2018/09/20_090806_218_6.jpg" style="background-image:url(2018/09/20_090806_218_6.jpg);"></span>
+<a class="open" onclick="CopyFile(this,'2018/09/')" >复制路径</a></div>
+                </div>
+                <div class="info clearfix">
+                    <span class="time">2018-09-20 09:08:06</span>
+                </div>            </div>
+        </div>
+<div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_zyvzsehojaf322.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">汤锋</p>
+<p class="txt">现代学徒制试点工作经验交流
+			</p>
+			<a class="copy" onclick="CopyText(this,'现代学徒制试点工作经验交流')" >复制文本</a>
+                    <div class="pic_n">
+<span class="pic" data-pic="2018/09/19_174941_219_1.jpg" style="background-image:url(2018/09/19_174941_219_1.jpg);"></span>
+<span class="pic" data-pic="2018/09/19_174941_219_2.jpg" style="background-image:url(2018/09/19_174941_219_2.jpg);"></span>
+<span class="pic" data-pic="2018/09/19_174941_219_3.jpg" style="background-image:url(2018/09/19_174941_219_3.jpg);"></span>
+<span class="pic" data-pic="2018/09/19_174941_219_4.jpg" style="background-image:url(2018/09/19_174941_219_4.jpg);"></span>
+<span class="pic" data-pic="2018/09/19_174941_219_5.jpg" style="background-image:url(2018/09/19_174941_219_5.jpg);"></span>
+<span class="pic" data-pic="2018/09/19_174941_219_6.jpg" style="background-image:url(2018/09/19_174941_219_6.jpg);"></span>
+<a class="open" onclick="CopyFile(this,'2018/09/')" >复制路径</a></div>
+                </div>
+                <div class="info clearfix">
+                    <span class="time">2018-09-19 17:49:41</span>
+                </div>            </div>
+        </div>
+<div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_zyvzsehojaf322.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">汤锋</p>
+<p class="txt">信息工程学院深度合作企业招聘信息【岗位】:Android/IOS开发工程师【薪酬】:面议（6K-12K之间）【基本福利】：五险一金齐全、国家节假日、年休假5天、午餐供应8元/餐、意外保险、每年组织外出旅游。【工作地点】：广州市【特色福利】：父母孝心津贴300元/月、诚信奖金（相当于基本工资一份）、员工免费体检（满一年）、年度旅游生日会、下午茶（甜品或水果）、周四打球、协会活动....【岗位职责】：1．根据公司需求，负责公司产品移动端的应用设计、开发及维护调试工作；2．协助解决开发过程的主要问题及攻克各种技术难题；3．根据产品功能需求，持续优化完善产品，使产品能不断的迭代更新。【岗位要求】：1．专科以上学历，计算机相关专业；2．两年以上APP开发经验，熟悉IOS、Android移动端特性及开发特性，两项开发均懂的优先考虑；3．熟悉图像、音频、视频处理、定位处理、人脸识别、条形码PDA和二维码处理等原生功能开发者优先；4．具有较强的学习能力、沟通能力及团队意识；5．能承受工作压力，主动性强，有产品意识，能换位思考。【岗位优势】：1．公司从事细分行业产品开发，是行业的龙头企业，目标公司规模300多人；2．不接外包项目，工作量稳定；3．公司提供基本工资+工作量绩效+爆品奖励制度，满一年后可参与合作人制度，有持续发展空间。有意向可将简历发至：610880699@qq.com
+			</p>
+			<a class="copy" onclick="CopyText(this,'信息工程学院深度合作企业招聘信息【岗位】:Android/IOS开发工程师【薪酬】:面议（6K-12K之间）【基本福利】：五险一金齐全、国家节假日、年休假5天、午餐供应8元/餐、意外保险、每年组织外出旅游。【工作地点】：广州市【特色福利】：父母孝心津贴300元/月、诚信奖金（相当于基本工资一份）、员工免费体检（满一年）、年度旅游生日会、下午茶（甜品或水果）、周四打球、协会活动.... 【岗位职责】： 1．根据公司需求，负责公司产品移动端的应用设计、开发及维护调试工作； 2．协助解决开发过程的主要问题及攻克各种技术难题； 3．根据产品功能需求，持续优化完善产品，使产品能不断的迭代更新。【岗位要求】： 1．专科以上学历，计算机相关专业； 2．两年以上APP开发经验，熟悉IOS、Android移动端特性及开发特性，两项开发均懂的优先考虑； 3．熟悉图像、音频、视频处理、定位处理、人脸识别、条形码PDA和二维码处理等原生功能开发者优先； 4．具有较强的学习能力、沟通能力及团队意识； 5．能承受工作压力，主动性强，有产品意识，能换位思考。【岗位优势】： 1．公司从事细分行业产品开发，是行业的龙头企业，目标公司规模300多人； 2．不接外包项目，工作量稳定； 3．公司提供基本工资+工作量绩效+爆品奖励制度，满一年后可参与合作人制度，有持续发展空间。有意向可将简历发至：610880699@qq.com')" >复制文本</a>
+                    <div class="pic_1">
+<img class="pic" data-pic="2018/09/16_094004_220_1.jpg" src="2018/09/16_094004_220_1.jpg"/>
+<a class="open" onclick="CopyFile(this,'2018/09/')" >复制路径</a></div>
+                </div>
+                <div class="info clearfix">
+                    <span class="time">2018-09-16 09:40:04</span>
+                </div>            </div>
+        </div>
+<div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_zyvzsehojaf322.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">汤锋</p>
+<p class="txt">背上行李[拥抱]，开赴公司[太阳]，预祝大家在4个月的学习期，收获满满[拳头]。
+			</p>
+			<a class="copy" onclick="CopyText(this,'背上行李[拥抱]，开赴公司[太阳]，预祝大家在4个月的学习期，收获满满[拳头]。')" >复制文本</a>
+                    <div class="pic_n">
+<span class="pic" data-pic="2018/09/14_175147_221_1.jpg" style="background-image:url(2018/09/14_175147_221_1.jpg);"></span>
+<span class="pic" data-pic="2018/09/14_175147_221_2.jpg" style="background-image:url(2018/09/14_175147_221_2.jpg);"></span>
+<span class="pic" data-pic="2018/09/14_175147_221_3.jpg" style="background-image:url(2018/09/14_175147_221_3.jpg);"></span>
+<span class="pic" data-pic="2018/09/14_175147_221_4.jpg" style="background-image:url(2018/09/14_175147_221_4.jpg);"></span>
+<span class="pic" data-pic="2018/09/14_175147_221_5.jpg" style="background-image:url(2018/09/14_175147_221_5.jpg);"></span>
+<span class="pic" data-pic="2018/09/14_175147_221_6.jpg" style="background-image:url(2018/09/14_175147_221_6.jpg);"></span>
+<span class="pic" data-pic="2018/09/14_175147_221_7.jpg" style="background-image:url(2018/09/14_175147_221_7.jpg);"></span>
+<span class="pic" data-pic="2018/09/14_175147_221_8.jpg" style="background-image:url(2018/09/14_175147_221_8.jpg);"></span>
+<span class="pic" data-pic="2018/09/14_175147_221_9.jpg" style="background-image:url(2018/09/14_175147_221_9.jpg);"></span>
+<a class="open" onclick="CopyFile(this,'2018/09/')" >复制路径</a></div>
+                </div>
+                <div class="info clearfix">
+                    <span class="time">2018-09-14 17:51:47</span>
+                </div>            </div>
+        </div>
+<div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_zyvzsehojaf322.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">汤锋</p>
+<p class="txt">漂亮的礼物🎁，丑丑的字[呲牙]
+			</p>
+			<a class="copy" onclick="CopyText(this,'漂亮的礼物🎁，丑丑的字[呲牙]')" >复制文本</a>
+                    <div class="pic_1">
+<img class="pic" data-pic="2018/09/10_205913_222_1.jpg" src="2018/09/10_205913_222_1.jpg"/>
+<a class="open" onclick="CopyFile(this,'2018/09/')" >复制路径</a></div>
+                </div>
+                <div class="info clearfix">
+                    <span class="time">2018-09-10 20:59:13</span>
+                </div>            </div>
+        </div>
+<div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_zyvzsehojaf322.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">汤锋</p>
+<p class="txt">在由工业和信息化部、教育部和江苏省人民政府共同主办的第七届“中国软件杯”大学生软件设计大赛中，信息工程学院俞新凯老师指导的Spider团队作品《智能电器综合管理系统》获广东省高职院校唯一一个一等奖[强]另外2支代表队分别荣获二等奖和三等奖。，祝贺获奖师生，祝贺软件技术专业[玫瑰]
+			</p>
+			<a class="copy" onclick="CopyText(this,'在由工业和信息化部、教育部和江苏省人民政府共同主办的第七届“中国软件杯”大学生软件设计大赛中，信息工程学院俞新凯老师指导的Spider团队作品《智能电器综合管理系统》获广东省高职院校唯一一个一等奖[强]另外2支代表队分别荣获二等奖和三等奖。，祝贺获奖师生，祝贺软件技术专业[玫瑰]')" >复制文本</a>
+                    <div class="pic_n">
+<span class="pic" data-pic="2018/09/01_085525_223_1.jpg" style="background-image:url(2018/09/01_085525_223_1.jpg);"></span>
+<span class="pic" data-pic="2018/09/01_085525_223_2.jpg" style="background-image:url(2018/09/01_085525_223_2.jpg);"></span>
+<span class="pic" data-pic="2018/09/01_085525_223_3.jpg" style="background-image:url(2018/09/01_085525_223_3.jpg);"></span>
+<span class="pic" data-pic="2018/09/01_085525_223_4.jpg" style="background-image:url(2018/09/01_085525_223_4.jpg);"></span>
+<span class="pic" data-pic="2018/09/01_085525_223_5.jpg" style="background-image:url(2018/09/01_085525_223_5.jpg);"></span>
+<span class="pic" data-pic="2018/09/01_085525_223_6.jpg" style="background-image:url(2018/09/01_085525_223_6.jpg);"></span>
+<span class="pic" data-pic="2018/09/01_085525_223_7.jpg" style="background-image:url(2018/09/01_085525_223_7.jpg);"></span>
+<span class="pic" data-pic="2018/09/01_085525_223_8.jpg" style="background-image:url(2018/09/01_085525_223_8.jpg);"></span>
+<span class="pic" data-pic="2018/09/01_085525_223_9.jpg" style="background-image:url(2018/09/01_085525_223_9.jpg);"></span>
+<a class="open" onclick="CopyFile(this,'2018/09/')" >复制路径</a></div>
+                </div>
+                <div class="info clearfix">
+                    <span class="time">2018-09-01 08:55:25</span>
+                </div>            </div>
+        </div>
+</div>
+<div id="wz"></div>
+<script type="text/JavaScript" language="javascript">
+window.onresize = function(){
+	location.reload();
+}
+function AddImgClickEvent()
+{
+	
+	var objs = document.getElementsByClassName("pic");
+	sum = objs.length;
+	for(var i=0;i<objs.length;i++)
+	{
+		objs[i].id=i+1;
+		objs[i].onclick=function()
+		{
+			now_p = parseInt(this.getAttribute("id"))-1;
+			now_n = parseInt(this.getAttribute("id"))+1;
+			
+			//document.getElementById('f_pic').style.marginTop=0+"px";
+			document.getElementById('f_pic').src = this.getAttribute("data-pic");
+			xzpic()
+		}
+	}
+}
+function xzpic()
+{
+	document.getElementById('f_pic').style.marginTop=0+"px";
+	var windowW = document.documentElement.clientWidth;
+	if(windowW>640){
+		windowW=640;
+	}
+	var windowH = document.documentElement.clientHeight;
+	var realWidth = document.getElementById('f_pic').naturalWidth;
+	var realHeight = document.getElementById('f_pic').naturalHeight;
+	var n_h=realHeight*windowW/realWidth;
+	if(n_h<windowH){
+		document.getElementById('f_pic').style.marginTop=((windowH-n_h)/2)+ 'px';
+	}else{
+		document.getElementById('f_pic').style.marginTop=0+"px";
+	}
+	document.getElementById('light').style.display='block';
+	document.getElementById('fade').style.display='block'
+}
+AddImgClickEvent();
+function boxClickEvent()
+{
+var obj_box = document.getElementsByClassName("box");
+for(var i=0;i<obj_box.length;i++)
+	{
+		obj_box[i].index=i+1;
+		obj_box[i].onmouseover=function()
+		{
+			document.getElementById('wz').innerHTML=this.index+" / "+obj_box.length;
+		}
+	}
+}
+
+boxClickEvent();
+function next()
+{
+	if(now_n>sum) return;
+	document.getElementById('f_pic').src = document.getElementById(now_n).getAttribute("data-pic");
+	location.href = "#"+now_n;
+	xzpic();
+	now_n=now_n+1;
+	now_p=now_p+1;
+	stopBubbling(event);
+}
+function prev()
+{
+	if(now_p<1) return;
+	document.getElementById('f_pic').src = document.getElementById(now_p).getAttribute("data-pic");
+	location.href = "#"+now_p;
+	xzpic();
+	now_n=now_n-1;
+	now_p=now_p-1;
+	stopBubbling(event);
+	
+}
+function stopBubbling(e) {
+	e = window.event || e;
+	if (e.stopPropagation) {
+		e.stopPropagation();
+	} else {
+		e.cancelBubble = true;
+	}
+}
+window.onload = function(){
+	document.onkeydown = function(ev){
+	var ev = ev || window.event;
+	switch(ev.keyCode){
+		case 37://left����
+		prev();
+		break;
+		case 39://right
+		next();
+		break;
+}
+}
+}
+</script>
+</body>
+</html>

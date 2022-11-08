@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>2017-11_青子</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimal-ui">
+<style type="text/css">
+body { font-size:14px; line-height: 120%;text-align: center; color:#333;position:relative;background:#fcfcfc;}
+a { color: #333; text-decoration: none;}
+a:hover { text-decoration: none;}
+* { margin: 0; padding: 0; border: none;}
+.clearfix:after { content:"."; display:block; height:0; clear:both; visibility:hidden}
+.clearfix { *height:1%;}
+#list { margin: 0 auto; text-align: left;max-width:640px;background:#fff; box-shadow: rgba(60, 60, 60, 0.22) 0px 0px 5px;}
+.box { border-bottom: 1px solid #eee; position: relative;padding:1rem;}
+.box:hover .close { display: block;}
+.head {float: left;width:10%;height:0px;padding-bottom:10%;overflow:hidden;background-position: center;center;background-size:cover;margin-right:2%;border-radius:10%;}
+.content { float: left; width:88%;}
+.main { margin-bottom: 10px;}
+.share{background:#f7f7f7;padding:3%;vertical-align:middle;}
+.share .text{float:left;width:85%;display:inline-block;font-size:0.95rem;color:#4966b9;line-height:1.3rem;}
+.share .text span{font-size:0.8rem;line-height:28px;font-weight:0;color:#7d97e1;}
+.share .img{float:left;width:12%;margin-right:2%;display:inline-block;}
+.share .img img{width:100%;}
+.pic_0{clear:both;}
+.pic_1{overflow:hidden;max-height:40rem;}
+.pic_1 .pic{width:65%;}
+.pic_1 video{width:65%;}
+.pic_n .pic{width:32.2%;display:inline-block;height:0px;padding-bottom:32.8%;overflow:hidden;background-position: center;center;background-size:cover;}
+.pic img{width:100%;}
+.txt {line-height:1.6rem;font-size:1rem;margin-bottom:1rem;}
+.txt img{width:1.2rem;vertical-align:top;margin:0 0.1rem;margin-top:0.2rem;}
+.user { color: #295c9d; line-height:1.6rem;}
+.info { height: 20px; line-height: 19px; font-size:0.6rem; margin: 0 0 10px 0;}
+.info .time { color: #ccc; float:left; height: 20px;}
+.info .lib { color:#175bb1; float:right; height: 20px;}
+.zan {background:#fdfdfd;color:#175bb1;line-height:1.5rem;font-size:0.6rem;margin:0 5px;padding:5px;font-size:0.8rem;}
+.com {background:#fdfdfd;line-height:1.5rem;font-size:0.8rem;margin:0 5px;padding:5px;border-top:1px solid #eee;word-break:break-all;}
+.com img{width:1rem;vertical-align:top;margin:0 0.1rem;margin-top:0.3rem;}
+.com span{color:#175bb1;}
+.black_overlay{display: none;position: absolute;width: 100%;height: 100%;background-color:rgba(0,0,0,0.95);z-index: 1001;}
+.white_content{display:none;position:fixed;width:100%;height:100%;z-index:1002;overflow:auto;text-align:center;align-items: center;margin:0 auto;background-position: center;center;background-size:100%;background-repeat:no-repeat;}
+#f_pic{margin:0 auto;max-width:640px;width:100%;}
+#l_c{display:block;position:fixed;left:0;top:50%;padding:1rem;color:#fff;background:rgba(255,255,255,0.3);font-size:2rem;line-height:4rem;z-index:9999;}
+#r_c{display:block;position:fixed;right:0;top:50%;padding:1rem;color:#fff;background:rgba(255,255,255,0.3);;font-size:2rem;line-height:4rem;z-index:9999;}
+#wz{color:#175bb1;background:rgba(0,0,0,0.3);padding:10px;right:0px;top:0px;position:fixed;}
+.open{position:absolute;top:1rem;right:5rem;color:#f1f1f1;}
+.copy{position:absolute;top:1rem;right:1rem;color:#f1f1f1;}
+#input{position: absolute;top: 0;left: 0;opacity: 0;z-index: -10;}
+</style>
+<script>
+var URL = decodeURIComponent(window.location.href).replace('file:///','');
+Dir = URL.substr(0,URL.lastIndexOf("/"));
+function CopyFile(obj,filename){
+      var input = document.getElementById("input");
+      input.value = Dir+"/"+filename;
+      input.select(); 
+      document.execCommand("copy"); 
+	  if(obj.style.color=='rgb(51, 51, 51)'){
+	  obj.style.color='#f1f1f1';
+	  }else{
+	  obj.style.color='#aaa';
+	  }
+}
+function CopyText(obj,text){
+      var input = document.getElementById("input");
+      input.value = text;
+      input.select(); 
+      document.execCommand("copy"); 
+	  if(obj.style.color=='rgb(51, 51, 51)'){
+	  obj.style.color='#f1f1f1';
+	  }else{
+	  obj.style.color='#aaa';
+	  }
+}
+</script>
+</head>
+<body>
+<textarea id="input"></textarea>
+<div id="fade" class="black_overlay"></div>
+<div id="light" class="white_content" onclick="document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"><img id="f_pic" src="" style="margin-top:0;" /><div id="l_c" onclick="prev();">&lt;</div><div id="r_c" onclick="next();">&gt;</div></div>
+<div id="list"><div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_upwsz96fsfri22.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">青子</p>
+<p class="txt">
+			</p>
+			<div class="share"><a href="http://mp.weixin.qq.com/s?__biz=MzI0NTEyMjUzNA==&mid=2652876185&idx=1&sn=526441e53a226da1d5dbb1427872b885&chksm=f2b85910c5cfd00637163cd36efa4b886af7ee7acb03796f5bf64e63e75384a10094d508cb80&mpshare=1&scene=2&srcid=1130T2wkkDsfJcTCgep2JlOD#rd" target="_blank"><div class="img"><img src="http://shmmsns.qpic.cn/mmsns/iaRlzG8zy7BulIE0sPWr7qQnX1QHmM3UGibpOicTdgMXBFqoDuBIn5kRfDgDQtKbnaYNWnQAhhTaLo/150" alt=""/></div><div class="text">2018高考新大纲公布 语数外三科大变动<br/><span></span></div></a><div class="pic_0"></div></div>
+</div>
+                <div class="info clearfix">
+                    <span class="time">2017-11-30 15:03:14</span>
+                </div>            </div>
+        </div>
+<div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_upwsz96fsfri22.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">青子</p>
+<p class="txt">因为去做模拟面试评委，没有参加高考报名学生会，有不懂的就只能问肖老师了[害羞]
+			</p>
+			<a class="copy" onclick="CopyText(this,'因为去做模拟面试评委，没有参加高考报名学生会，有不懂的就只能问肖老师了[害羞]')" >复制文本</a>
+                    <div class="pic_1">
+<img class="pic" data-pic="2017/11/29_222435_350_1.jpg" src="2017/11/29_222435_350_1.jpg"/>
+<a class="open" onclick="CopyFile(this,'2017/11/')" >复制路径</a></div>
+                </div>
+                <div class="info clearfix">
+                    <span class="time">2017-11-29 22:24:35</span>
+                </div>            </div>
+        </div>
+<div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_upwsz96fsfri22.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">青子</p>
+<p class="txt">注意后面特别注意那几点！
+			</p>
+			<a class="copy" onclick="CopyText(this,'注意后面特别注意那几点！')" >复制文本</a><div class="share"><a href="http://mp.weixin.qq.com/s?__biz=MzU1MDEwODQwMA==&mid=2247484229&idx=7&sn=9018c7167122acee6192d6b1dc821cc3&chksm=fba4eedaccd367cc67f4138dd9c94ef3982624465c0e8e20d64cffea8e61dae21e0c01c5af31&mpshare=1&scene=23&srcid=1124y6N0EgBIEDdm3DPKY4fl#rd" target="_blank"><div class="img"><img src="http://szmmsns.qpic.cn/mmsns/rZ9TAJYwnRwPibsNwjVibKUhEUL6rqJjIAj67wdrm393Wp5fCtXWqKZAibjJU4xCz8rsyokGC8vsts/150" alt=""/></div><div class="text">报名 | 广东2018高考报名12月1日-10日，考生需要携...<br/><span></span></div></a><div class="pic_0"></div></div>
+</div>
+                <div class="info clearfix">
+                    <span class="time">2017-11-24 16:38:58</span>
+                </div>            </div>
+        </div>
+<div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_upwsz96fsfri22.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">青子</p>
+<p class="txt">传媒社的校园主持人大赛ing，元旦晚会的主持人将根据他们的表现选出，加油吧，选手们！
+			</p>
+			<a class="copy" onclick="CopyText(this,'传媒社的校园主持人大赛ing，元旦晚会的主持人将根据他们的表现选出，加油吧，选手们！')" >复制文本</a>
+                    <div class="pic_n">
+<span class="pic" data-pic="2017/11/22_202612_352_1.jpg" style="background-image:url(2017/11/22_202612_352_1.jpg);"></span>
+<span class="pic" data-pic="2017/11/22_202612_352_2.jpg" style="background-image:url(2017/11/22_202612_352_2.jpg);"></span>
+<a class="open" onclick="CopyFile(this,'2017/11/')" >复制路径</a></div>
+                </div>
+                <div class="info clearfix">
+                    <span class="time">2017-11-22 20:26:12</span>
+                </div>            </div>
+        </div>
+<div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_upwsz96fsfri22.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">青子</p>
+<p class="txt">高考报名于12月1日～10号进行，请高三的家长和学生关注！！！
+			</p>
+			<a class="copy" onclick="CopyText(this,'高考报名于12月1日～10号进行，请高三的家长和学生关注！！！')" >复制文本</a><div class="share"><a href="http://mp.weixin.qq.com/s?__biz=MzI4NjYzMTM4MA==&mid=2247485515&idx=1&sn=f2755d42a8f1be1649124478e735b38a&chksm=ebd8bcf0dcaf35e66f515285c9b46a575faad1124f301efcb3e0f3f2ad0d1b2afb5a837d7a0d&mpshare=1&scene=2&srcid=1122a1NbwLIdGPuvLV5dYPn3#rd" target="_blank"><div class="img"><img src="http://szmmsns.qpic.cn/mmsns/kibZ4jmvuUGlSIO9KRA0ia2PE7trJy8LI1DBlINX4oJzytnOibATM5a2cmfHQ5JrvslVK4pLJL3VC0/150" alt=""/></div><div class="text">广东省2018年高考报名工作将于12月1日\uff5e10日进行！<br/><span></span></div></a><div class="pic_0"></div></div>
+</div>
+                <div class="info clearfix">
+                    <span class="time">2017-11-22 17:40:58</span>
+                </div>            </div>
+        </div>
+<div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_upwsz96fsfri22.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">青子</p>
+<p class="txt">北中开会ing，有事请留言！
+			</p>
+			<a class="copy" onclick="CopyText(this,'北中开会ing，有事请留言！')" >复制文本</a>
+                    <div class="pic_1">
+<img class="pic" data-pic="2017/11/22_085413_354_1.jpg" src="2017/11/22_085413_354_1.jpg"/>
+<a class="open" onclick="CopyFile(this,'2017/11/')" >复制路径</a></div>
+                </div>
+                <div class="info clearfix">
+                    <span class="time">2017-11-22 08:54:13</span>
+                </div>            </div>
+        </div>
+<div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_upwsz96fsfri22.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">青子</p>
+<p class="txt">祝贺我校获得一等奖，获得了优秀组织奖，还有小白老师获得优秀辅导老师奖因为付出，所以收获！
+			</p>
+			<a class="copy" onclick="CopyText(this,'祝贺我校获得一等奖，获得了优秀组织奖，还有小白老师获得优秀辅导老师奖因为付出，所以收获！')" >复制文本</a>
+                    <div class="pic_n">
+<span class="pic" data-pic="2017/11/21_214314_355_1.jpg" style="background-image:url(2017/11/21_214314_355_1.jpg);"></span>
+<span class="pic" data-pic="2017/11/21_214314_355_2.jpg" style="background-image:url(2017/11/21_214314_355_2.jpg);"></span>
+<span class="pic" data-pic="2017/11/21_214314_355_3.jpg" style="background-image:url(2017/11/21_214314_355_3.jpg);"></span>
+<span class="pic" data-pic="2017/11/21_214314_355_4.jpg" style="background-image:url(2017/11/21_214314_355_4.jpg);"></span>
+<span class="pic" data-pic="2017/11/21_214314_355_5.jpg" style="background-image:url(2017/11/21_214314_355_5.jpg);"></span>
+<span class="pic" data-pic="2017/11/21_214314_355_6.jpg" style="background-image:url(2017/11/21_214314_355_6.jpg);"></span>
+<a class="open" onclick="CopyFile(this,'2017/11/')" >复制路径</a></div>
+                </div>
+                <div class="info clearfix">
+                    <span class="time">2017-11-21 21:43:14</span>
+                </div>            </div>
+        </div>
+<div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_upwsz96fsfri22.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">青子</p>
+<p class="txt">
+			</p>
+			
+                    <div class="pic_n">
+<span class="pic" data-pic="2017/11/21_212211_356_1.jpg" style="background-image:url(2017/11/21_212211_356_1.jpg);"></span>
+<span class="pic" data-pic="2017/11/21_212211_356_2.jpg" style="background-image:url(2017/11/21_212211_356_2.jpg);"></span>
+<span class="pic" data-pic="2017/11/21_212211_356_3.jpg" style="background-image:url(2017/11/21_212211_356_3.jpg);"></span>
+<span class="pic" data-pic="2017/11/21_212211_356_4.jpg" style="background-image:url(2017/11/21_212211_356_4.jpg);"></span>
+<span class="pic" data-pic="2017/11/21_212211_356_5.jpg" style="background-image:url(2017/11/21_212211_356_5.jpg);"></span>
+<span class="pic" data-pic="2017/11/21_212211_356_6.jpg" style="background-image:url(2017/11/21_212211_356_6.jpg);"></span>
+<span class="pic" data-pic="2017/11/21_212211_356_7.jpg" style="background-image:url(2017/11/21_212211_356_7.jpg);"></span>
+<span class="pic" data-pic="2017/11/21_212211_356_8.jpg" style="background-image:url(2017/11/21_212211_356_8.jpg);"></span>
+<a class="open" onclick="CopyFile(this,'2017/11/')" >复制路径</a></div>
+                </div>
+                <div class="info clearfix">
+                    <span class="time">2017-11-21 21:22:11</span>
+                </div><div class="com clearfix"><span>[11-21 21:25] 青子：</span>带学生参加比赛，意外取得第一的好成绩，感谢所有帮忙的老师，感谢语文组，特别感谢小白老师！<br/></div>            </div>
+        </div>
+<div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_upwsz96fsfri22.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">青子</p>
+<p class="txt">家庭教育最重要的是人品教育，其次是心情教育，第三是鼓励教育。
+			</p>
+			<a class="copy" onclick="CopyText(this,'家庭教育最重要的是人品教育，其次是心情教育，第三是鼓励教育。')" >复制文本</a><div class="share"><a href="http://mp.weixin.qq.com/s?__biz=MzI4MDUzMzExOA==&mid=2247485458&idx=1&sn=cfa38099459b866a32067708a83306ab&chksm=ebb64903dcc1c015cba077947e22ab2e4ebe35cacd7f788b88be8f42c2f38d6f83214cb58a66&mpshare=1&scene=2&srcid=1117XP96kLtgt0lL0wOIWnpZ#rd" target="_blank"><div class="img"><img src="http://szmmsns.qpic.cn/mmsns/dLKVrgicyDXd8RKMJWzfcfVDRnQ9I7Kp6etic5LNPfvf7ZUyB8dVq1Zvicg6S8OZCVicDjsdSC8ucQc/150" alt=""/></div><div class="text">俞敏洪：家庭教育的灵魂是人品教育<br/><span></span></div></a><div class="pic_0"></div></div>
+</div>
+                <div class="info clearfix">
+                    <span class="time">2017-11-17 15:09:41</span>
+                </div>            </div>
+        </div>
+<div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_upwsz96fsfri22.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">青子</p>
+<p class="txt">很不错的学音标视频，需要的就收藏起来，分享快乐！
+			</p>
+			<a class="copy" onclick="CopyText(this,'很不错的学音标视频，需要的就收藏起来，分享快乐！')" >复制文本</a><div class="share"><a href="http://mp.weixin.qq.com/s?__biz=MjM5MzM3NTc3NA==&mid=2650092434&idx=4&sn=bbe628cd4973facec97670a025f8dec2&chksm=be9660e389e1e9f509252fd77793725de6420ece6b63acd215956c6411ce6778761a36aad8b0&mpshare=1&scene=2&srcid=1117hLCgO3v1oVdVkBFu3ueS#rd" target="_blank"><div class="img"><img src="http://shmmsns.qpic.cn/mmsns/naPHoFY2n5S610Kn388DSZQ2Clia066icEsOfhdRfMw6TibaB4tcliaVnwkJgkzBPpHibAZGOQFe2icVg/150" alt=""/></div><div class="text">英语老师人手一份:英语音标发音教程，史上最完整视频！<br/><span></span></div></a><div class="pic_0"></div></div>
+</div>
+                <div class="info clearfix">
+                    <span class="time">2017-11-17 15:08:44</span>
+                </div>            </div>
+        </div>
+<div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_upwsz96fsfri22.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">青子</p>
+<p class="txt">
+			</p>
+			<div class="share"><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjAwMzgwMA==&mid=2652246305&idx=1&sn=42114b09f9fcdd8de1994b7a422ba654&chksm=bd0d5b968a7ad2800286dfc7a15d6057c2afa31118f9cc1ae8d7e37c83e068b474f66450369c&mpshare=1&scene=2&srcid=1115cFdwv4yHmUUvRxsKbVYj#rd" target="_blank"><div class="img"><img src="http://szmmsns.qpic.cn/mmsns/XX2BOnZWQsumq3FEbWG3KScHPPwtRwbZaFojoAxUCJSp1RqMGZXhdu6LFT381UhWZBLpjVuib3dw/150" alt=""/></div><div class="text">为什么一定要参加学考？班主任一句话道出真相！广东学考报名<br/><span></span></div></a><div class="pic_0"></div></div>
+</div>
+                <div class="info clearfix">
+                    <span class="time">2017-11-15 07:41:55</span>
+                </div>            </div>
+        </div>
+<div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_upwsz96fsfri22.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">青子</p>
+<p class="txt">所有疑问都能得到解答，高三学生和家长都应看看
+			</p>
+			<a class="copy" onclick="CopyText(this,'所有疑问都能得到解答，高三学生和家长都应看看')" >复制文本</a><div class="share"><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjAwMzgwMA==&mid=2652246282&idx=2&sn=bf4973b903d48b39257b3a3d957daaa8&chksm=bd0d5bbd8a7ad2ab06216356ae8f599ac2bbed3f0ce667a906feb12df7f5af0791b45bac6e03&mpshare=1&scene=2&srcid=1113IebULaUfYPFgZaiYaCAl#rd" target="_blank"><div class="img"><img src="http://szmmsns.qpic.cn/mmsns/XX2BOnZWQsumq3FEbWG3KeJk6Sh7jJQRv5qdmxZp3EodqctsFu6BW7fo5Ch5hVuVCbLvWy4cicgg/150" alt=""/></div><div class="text">火热实拍！2018年1月广东学考报名全过程，这八个“不”一定?<br/><span></span></div></a><div class="pic_0"></div></div>
+</div>
+                <div class="info clearfix">
+                    <span class="time">2017-11-13 23:30:12</span>
+                </div>            </div>
+        </div>
+<div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_upwsz96fsfri22.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">青子</p>
+<p class="txt">早安，广州！
+			</p>
+			<a class="copy" onclick="CopyText(this,'早安，广州！')" >复制文本</a>
+                    <div class="pic_1">
+<img class="pic" data-pic="2017/11/12_075730_361_1.jpg" src="2017/11/12_075730_361_1.jpg"/>
+<a class="open" onclick="CopyFile(this,'2017/11/')" >复制路径</a></div>
+                </div>
+                <div class="info clearfix">
+                    <span class="time">2017-11-12 07:57:30</span>
+                </div>            </div>
+        </div>
+<div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_upwsz96fsfri22.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">青子</p>
+<p class="txt">写了2天的报告，因为自己疏忽没保存而烟消云散，看来明天下广州之前我都只能在电脑前度过了[流泪][流泪][流泪]
+			</p>
+			<a class="copy" onclick="CopyText(this,'写了2天的报告，因为自己疏忽没保存而烟消云散，看来明天下广州之前我都只能在电脑前度过了[流泪][流泪][流泪]')" >复制文本</a>
+                    <div class="pic_1">
+<img class="pic" data-pic="2017/11/10_123300_362_1.jpg" src="2017/11/10_123300_362_1.jpg"/>
+<a class="open" onclick="CopyFile(this,'2017/11/')" >复制路径</a></div>
+                </div>
+                <div class="info clearfix">
+                    <span class="time">2017-11-10 12:33:00</span>
+                </div>            </div>
+        </div>
+<div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_upwsz96fsfri22.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">青子</p>
+<p class="txt">昨晚受邀参加活动，再一次体会诗的魅力！
+			</p>
+			<a class="copy" onclick="CopyText(this,'昨晚受邀参加活动，再一次体会诗的魅力！')" >复制文本</a>
+                    <div class="pic_n">
+<span class="pic" data-pic="2017/11/10_073423_363_1.jpg" style="background-image:url(2017/11/10_073423_363_1.jpg);"></span>
+<span class="pic" data-pic="2017/11/10_073423_363_2.jpg" style="background-image:url(2017/11/10_073423_363_2.jpg);"></span>
+<a class="open" onclick="CopyFile(this,'2017/11/')" >复制路径</a></div>
+                </div>
+                <div class="info clearfix">
+                    <span class="time">2017-11-10 07:34:23</span>
+                </div>            </div>
+        </div>
+<div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_upwsz96fsfri22.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">青子</p>
+<p class="txt">英语融入中国优秀传统文化，引导学生积极参与中外文化的对话与交流，通过“讲好中国故事”，增强文化自觉和文化自信。
+			</p>
+			<a class="copy" onclick="CopyText(this,'英语融入中国优秀传统文化，引导学生积极参与中外文化的对话与交流，通过“讲好中国故事”，增强文化自觉和文化自信。')" >复制文本</a><div class="share"><a href="http://mp.weixin.qq.com/s?__biz=MzAxMjgyODIwNg==&mid=2656844901&idx=1&sn=bdba5ebb4e7e91ce33fbb9d28ac422bb&chksm=80037724b774fe32f872602ef5ea0e143d7be6986f1984712ffcfe12918d2c66f3c543b3008f&mpshare=1&scene=2&srcid=1028HlVuSKDLzE5eeWn2ZTWz#rd" target="_blank"><div class="img"><img src="http://szmmsns.qpic.cn/mmsns/0g8pYzkOicp8meobN6h0FMtXRImYu9wxLkZFm94kVjWauWWw293icHd8D6XNWsWjUG3icEVibURG7Ec/150" alt=""/></div><div class="text">教育部考试中心，首次公开2018年高考命题导向！<br/><span></span></div></a><div class="pic_0"></div></div>
+</div>
+                <div class="info clearfix">
+                    <span class="time">2017-11-02 19:11:15</span>
+                </div>            </div>
+        </div>
+<div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_upwsz96fsfri22.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">青子</p>
+<p class="txt">大牌名师竟如此亲民，如此接地气！一上午的学习收获满满，对今后的课堂教学也有了更明确的方向，感谢有你，感谢分享！
+			</p>
+			<a class="copy" onclick="CopyText(this,'大牌名师竟如此亲民，如此接地气！一上午的学习收获满满，对今后的课堂教学也有了更明确的方向，感谢有你，感谢分享！')" >复制文本</a>
+                    <div class="pic_1">
+<img class="pic" data-pic="2017/11/02_160054_365_1.jpg" src="2017/11/02_160054_365_1.jpg"/>
+<a class="open" onclick="CopyFile(this,'2017/11/')" >复制路径</a></div>
+                </div>
+                <div class="info clearfix">
+                    <span class="time">2017-11-02 16:00:54</span>
+                </div>            </div>
+        </div>
+</div>
+<div id="wz"></div>
+<script type="text/JavaScript" language="javascript">
+window.onresize = function(){
+	location.reload();
+}
+function AddImgClickEvent()
+{
+	
+	var objs = document.getElementsByClassName("pic");
+	sum = objs.length;
+	for(var i=0;i<objs.length;i++)
+	{
+		objs[i].id=i+1;
+		objs[i].onclick=function()
+		{
+			now_p = parseInt(this.getAttribute("id"))-1;
+			now_n = parseInt(this.getAttribute("id"))+1;
+			
+			//document.getElementById('f_pic').style.marginTop=0+"px";
+			document.getElementById('f_pic').src = this.getAttribute("data-pic");
+			xzpic()
+		}
+	}
+}
+function xzpic()
+{
+	document.getElementById('f_pic').style.marginTop=0+"px";
+	var windowW = document.documentElement.clientWidth;
+	if(windowW>640){
+		windowW=640;
+	}
+	var windowH = document.documentElement.clientHeight;
+	var realWidth = document.getElementById('f_pic').naturalWidth;
+	var realHeight = document.getElementById('f_pic').naturalHeight;
+	var n_h=realHeight*windowW/realWidth;
+	if(n_h<windowH){
+		document.getElementById('f_pic').style.marginTop=((windowH-n_h)/2)+ 'px';
+	}else{
+		document.getElementById('f_pic').style.marginTop=0+"px";
+	}
+	document.getElementById('light').style.display='block';
+	document.getElementById('fade').style.display='block'
+}
+AddImgClickEvent();
+function boxClickEvent()
+{
+var obj_box = document.getElementsByClassName("box");
+for(var i=0;i<obj_box.length;i++)
+	{
+		obj_box[i].index=i+1;
+		obj_box[i].onmouseover=function()
+		{
+			document.getElementById('wz').innerHTML=this.index+" / "+obj_box.length;
+		}
+	}
+}
+
+boxClickEvent();
+function next()
+{
+	if(now_n>sum) return;
+	document.getElementById('f_pic').src = document.getElementById(now_n).getAttribute("data-pic");
+	location.href = "#"+now_n;
+	xzpic();
+	now_n=now_n+1;
+	now_p=now_p+1;
+	stopBubbling(event);
+}
+function prev()
+{
+	if(now_p<1) return;
+	document.getElementById('f_pic').src = document.getElementById(now_p).getAttribute("data-pic");
+	location.href = "#"+now_p;
+	xzpic();
+	now_n=now_n-1;
+	now_p=now_p-1;
+	stopBubbling(event);
+	
+}
+function stopBubbling(e) {
+	e = window.event || e;
+	if (e.stopPropagation) {
+		e.stopPropagation();
+	} else {
+		e.cancelBubble = true;
+	}
+}
+window.onload = function(){
+	document.onkeydown = function(ev){
+	var ev = ev || window.event;
+	switch(ev.keyCode){
+		case 37://left����
+		prev();
+		break;
+		case 39://right
+		next();
+		break;
+}
+}
+}
+</script>
+</body>
+</html>

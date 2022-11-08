@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>2019-11_青子</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimal-ui">
+<style type="text/css">
+body { font-size:14px; line-height: 120%;text-align: center; color:#333;position:relative;background:#fcfcfc;}
+a { color: #333; text-decoration: none;}
+a:hover { text-decoration: none;}
+* { margin: 0; padding: 0; border: none;}
+.clearfix:after { content:"."; display:block; height:0; clear:both; visibility:hidden}
+.clearfix { *height:1%;}
+#list { margin: 0 auto; text-align: left;max-width:640px;background:#fff; box-shadow: rgba(60, 60, 60, 0.22) 0px 0px 5px;}
+.box { border-bottom: 1px solid #eee; position: relative;padding:1rem;}
+.box:hover .close { display: block;}
+.head {float: left;width:10%;height:0px;padding-bottom:10%;overflow:hidden;background-position: center;center;background-size:cover;margin-right:2%;border-radius:10%;}
+.content { float: left; width:88%;}
+.main { margin-bottom: 10px;}
+.share{background:#f7f7f7;padding:3%;vertical-align:middle;}
+.share .text{float:left;width:85%;display:inline-block;font-size:0.95rem;color:#4966b9;line-height:1.3rem;}
+.share .text span{font-size:0.8rem;line-height:28px;font-weight:0;color:#7d97e1;}
+.share .img{float:left;width:12%;margin-right:2%;display:inline-block;}
+.share .img img{width:100%;}
+.pic_0{clear:both;}
+.pic_1{overflow:hidden;max-height:40rem;}
+.pic_1 .pic{width:65%;}
+.pic_1 video{width:65%;}
+.pic_n .pic{width:32.2%;display:inline-block;height:0px;padding-bottom:32.8%;overflow:hidden;background-position: center;center;background-size:cover;}
+.pic img{width:100%;}
+.txt {line-height:1.6rem;font-size:1rem;margin-bottom:1rem;}
+.txt img{width:1.2rem;vertical-align:top;margin:0 0.1rem;margin-top:0.2rem;}
+.user { color: #295c9d; line-height:1.6rem;}
+.info { height: 20px; line-height: 19px; font-size:0.6rem; margin: 0 0 10px 0;}
+.info .time { color: #ccc; float:left; height: 20px;}
+.info .lib { color:#175bb1; float:right; height: 20px;}
+.zan {background:#fdfdfd;color:#175bb1;line-height:1.5rem;font-size:0.6rem;margin:0 5px;padding:5px;font-size:0.8rem;}
+.com {background:#fdfdfd;line-height:1.5rem;font-size:0.8rem;margin:0 5px;padding:5px;border-top:1px solid #eee;word-break:break-all;}
+.com img{width:1rem;vertical-align:top;margin:0 0.1rem;margin-top:0.3rem;}
+.com span{color:#175bb1;}
+.black_overlay{display: none;position: absolute;width: 100%;height: 100%;background-color:rgba(0,0,0,0.95);z-index: 1001;}
+.white_content{display:none;position:fixed;width:100%;height:100%;z-index:1002;overflow:auto;text-align:center;align-items: center;margin:0 auto;background-position: center;center;background-size:100%;background-repeat:no-repeat;}
+#f_pic{margin:0 auto;max-width:640px;width:100%;}
+#l_c{display:block;position:fixed;left:0;top:50%;padding:1rem;color:#fff;background:rgba(255,255,255,0.3);font-size:2rem;line-height:4rem;z-index:9999;}
+#r_c{display:block;position:fixed;right:0;top:50%;padding:1rem;color:#fff;background:rgba(255,255,255,0.3);;font-size:2rem;line-height:4rem;z-index:9999;}
+#wz{color:#175bb1;background:rgba(0,0,0,0.3);padding:10px;right:0px;top:0px;position:fixed;}
+.open{position:absolute;top:1rem;right:5rem;color:#f1f1f1;}
+.copy{position:absolute;top:1rem;right:1rem;color:#f1f1f1;}
+#input{position: absolute;top: 0;left: 0;opacity: 0;z-index: -10;}
+</style>
+<script>
+var URL = decodeURIComponent(window.location.href).replace('file:///','');
+Dir = URL.substr(0,URL.lastIndexOf("/"));
+function CopyFile(obj,filename){
+      var input = document.getElementById("input");
+      input.value = Dir+"/"+filename;
+      input.select(); 
+      document.execCommand("copy"); 
+	  if(obj.style.color=='rgb(51, 51, 51)'){
+	  obj.style.color='#f1f1f1';
+	  }else{
+	  obj.style.color='#aaa';
+	  }
+}
+function CopyText(obj,text){
+      var input = document.getElementById("input");
+      input.value = text;
+      input.select(); 
+      document.execCommand("copy"); 
+	  if(obj.style.color=='rgb(51, 51, 51)'){
+	  obj.style.color='#f1f1f1';
+	  }else{
+	  obj.style.color='#aaa';
+	  }
+}
+</script>
+</head>
+<body>
+<textarea id="input"></textarea>
+<div id="fade" class="black_overlay"></div>
+<div id="light" class="white_content" onclick="document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"><img id="f_pic" src="" style="margin-top:0;" /><div id="l_c" onclick="prev();">&lt;</div><div id="r_c" onclick="next();">&gt;</div></div>
+<div id="list"><div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_upwsz96fsfri22.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">青子</p>
+<p class="txt">我自己都无法相信，11月共读，我坚持下来了，所以说: 和一群优秀的人在一起，才能走得更远！
+			</p>
+			<a class="copy" onclick="CopyText(this,'我自己都无法相信，11月共读，我坚持下来了，所以说: 和一群优秀的人在一起，才能走得更远！')" >复制文本</a><div class="share"><a href="http://mp.weixin.qq.com/s?__biz=MzI2ODk5Mzc3Nw==&mid=2247485098&idx=1&sn=5f9fda94309d5a8f42eec25205d163df&chksm=eae65334dd91da228ce66b3e21710c90d98efd2cf9742a5ad219d9840edb772d796689da3dd8&mpshare=1&scene=2&srcid=&sharer_sharetime=1575070770427&sharer_shareid=fec59dc17e6d5a351fc594be948bd9f2#rd" target="_blank"><div class="img"><img src="http://szmmsns.qpic.cn/mmsns/rZ9TAJYwnRyWpS06MibZQHE1boJm5iaKdwb6a5Gogric78Rwper3xtVvKGmm6c1PaEW08RCcb8iaib2I/150" alt=""/></div><div class="text">11月阅读故事：连续一个月每天被同一本书打脸是种什么感觉？<br/><span></span></div></a><div class="pic_0"></div></div>
+</div>
+                <div class="info clearfix">
+                    <span class="time">2019-11-30 07:41:27</span>
+                </div>            </div>
+        </div>
+<div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_upwsz96fsfri22.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">青子</p>
+<p class="txt">老师的鼓励和支持也是学生获取成就感的重要途径！
+			</p>
+			<a class="copy" onclick="CopyText(this,'老师的鼓励和支持也是学生获取成就感的重要途径！')" >复制文本</a><div class="share"><a href="http://mp.weixin.qq.com/s?__biz=MzI2ODk5Mzc3Nw==&mid=2247485054&idx=1&sn=ac96dfd65ef99bb6ac92e72d370f8702&chksm=eae653e0dd91daf6af5031b7d012dad139727a9849cc429c5e8d2c1b64a7e06b592ce0b89096&mpshare=1&scene=2&srcid=&sharer_sharetime=1574498492913&sharer_shareid=fec59dc17e6d5a351fc594be948bd9f2#rd" target="_blank"><div class="img"><img src="http://szmmsns.qpic.cn/mmsns/rZ9TAJYwnRyWpS06MibZQHMQJXMiaywjIAsqfVpO8ZNY7zGhzBC8qD6swa8DP6eiboJpGl3YEyMxAU/150" alt=""/></div><div class="text">学生就是不爱学（英语），我能怎么办？<br/><span></span></div></a><div class="pic_0"></div></div>
+</div>
+                <div class="info clearfix">
+                    <span class="time">2019-11-23 16:42:16</span>
+                </div>            </div>
+        </div>
+<div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_upwsz96fsfri22.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">青子</p>
+<p class="txt">
+			</p>
+			<div class="share"><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjU5NDEzNQ==&mid=2650973729&idx=2&sn=074e891e3c8c176ea6926fc5aa7b5582&chksm=bd10ee998a67678fb96bddd4bd91f7a192cb0fedd4ce4ef7309b75f0972956aafab6a4271d81&mpshare=1&scene=2&srcid=&sharer_sharetime=1574329980957&sharer_shareid=fec59dc17e6d5a351fc594be948bd9f2#rd" target="_blank"><div class="img"><img src="http://szmmsns.qpic.cn/mmsns/rZ9TAJYwnRyWpS06MibZQHO1L0S1mJ5Bh0OsTuoxr7JsnQj0EG4dUl0iaL8KovsZ00UVfl9CVU4lQ/150" alt=""/></div><div class="text">紧急！重点高中期中已采用等级赋分排名！新高考各层次学生如<br/><span></span></div></a><div class="pic_0"></div></div>
+</div>
+                <div class="info clearfix">
+                    <span class="time">2019-11-21 17:53:08</span>
+                </div>            </div>
+        </div>
+<div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_upwsz96fsfri22.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">青子</p>
+<p class="txt">最可悲的一点是：我们一边心惊胆战响起警钟，一边心安理得的享受快感！   不要再用生命去赌明天了！
+			</p>
+			<a class="copy" onclick="CopyText(this,'最可悲的一点是：我们一边心惊胆战响起警钟，一边心安理得的享受快感！ 不要再用生命去赌明天了！')" >复制文本</a><div class="share"><a href="http://mp.weixin.qq.com/s?__biz=MzI2NzQxMTI4Mw==&mid=2247536534&idx=1&sn=372ab308359864823e04b7ec18ccf5ec&chksm=eafd45aadd8accbcbb9c2e219e16f3867f52df553476cc9c0b08be28f84bf0b021419e98b1b3&mpshare=1&scene=2&srcid=&sharer_sharetime=1573860745648&sharer_shareid=fec59dc17e6d5a351fc594be948bd9f2#rd" target="_blank"><div class="img"><img src="http://szmmsns.qpic.cn/mmsns/rZ9TAJYwnRyWpS06MibZQHOZuDdJdOvF6Q4tIYnUhlnZgibvqdcNn79m19p0Gb4z3c4icOUEWtGIys/150" alt=""/></div><div class="text">26岁，月入3万，癌症晚期：熬夜没什么，就是容易死！<br/><span></span></div></a><div class="pic_0"></div></div>
+</div>
+                <div class="info clearfix">
+                    <span class="time">2019-11-16 07:34:47</span>
+                </div>            </div>
+        </div>
+<div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_upwsz96fsfri22.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">青子</p>
+<p class="txt">时间管理真正的核心问题并不是怎么管理时间，而是如何变成更好的自己！再一次佩服叶老师！
+			</p>
+			<a class="copy" onclick="CopyText(this,'时间管理真正的核心问题并不是怎么管理时间，而是如何变成更好的自己！再一次佩服叶老师！')" >复制文本</a><div class="share"><a href="http://mp.weixin.qq.com/s?__biz=MzI2ODk5Mzc3Nw==&mid=2247484989&idx=1&sn=93b14c7b279d746f4eee149e8a2c3f91&chksm=eae653a3dd91dab533782880e3dd66d7742bc19bdf96f39296c9dd9240e6e215dadb5a0e4e4f&mpshare=1&scene=2&srcid=&sharer_sharetime=1573639853438&sharer_shareid=fec59dc17e6d5a351fc594be948bd9f2#rd" target="_blank"><div class="img"><img src="http://szmmsns.qpic.cn/mmsns/rZ9TAJYwnRyWpS06MibZQHDId3r5OpZelfhcdZb5DibibNnpOxQFqAiaK8SnURib7eyB9edWpxO1hBZ8/150" alt=""/></div><div class="text">送你一份时间管理修炼指南<br/><span></span></div></a><div class="pic_0"></div></div>
+</div>
+                <div class="info clearfix">
+                    <span class="time">2019-11-13 18:12:33</span>
+                </div>            </div>
+        </div>
+<div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_upwsz96fsfri22.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">青子</p>
+<p class="txt">今天下午“非遗进校园”，学生兴致很高，上手也很快[强][强][强]
+			</p>
+			<a class="copy" onclick="CopyText(this,'今天下午“非遗进校园”，学生兴致很高，上手也很快[强][强][强]')" >复制文本</a>
+                    <div class="pic_1">
+<img class="pic" data-pic="2019/11/06_232358_175_1.jpg" src="2019/11/06_232358_175_1.jpg"/>
+<a class="open" onclick="CopyFile(this,'2019/11/')" >复制路径</a></div>
+                </div>
+                <div class="info clearfix">
+                    <span class="time">2019-11-06 23:23:58</span>
+                </div>            </div>
+        </div>
+<div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_upwsz96fsfri22.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">青子</p>
+<p class="txt">我太难了，马上就期中考试了，班上的学生把时间全放在数学和物理上了[流泪]
+			</p>
+			<a class="copy" onclick="CopyText(this,'我太难了，马上就期中考试了，班上的学生把时间全放在数学和物理上了[流泪]')" >复制文本</a>
+                    <div class="pic_1">
+<img class="pic" data-pic="2019/11/06_220546_176_1.jpg" src="2019/11/06_220546_176_1.jpg"/>
+<a class="open" onclick="CopyFile(this,'2019/11/')" >复制路径</a></div>
+                </div>
+                <div class="info clearfix">
+                    <span class="time">2019-11-06 22:05:46</span>
+                </div>            </div>
+        </div>
+<div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_upwsz96fsfri22.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">青子</p>
+<p class="txt">组织共读的叶老师实在太会总结了，其实读完第一章，有跟叶老师一样的感觉，可是表达不出来啊，看来不仅要学会看书，还要学会总结，并且在教学中去改进，读书才更有效果啊！
+			</p>
+			<a class="copy" onclick="CopyText(this,'组织共读的叶老师实在太会总结了，其实读完第一章，有跟叶老师一样的感觉，可是表达不出来啊，看来不仅要学会看书，还要学会总结，并且在教学中去改进，读书才更有效果啊！')" >复制文本</a><div class="share"><a href="http://mp.weixin.qq.com/s?__biz=MzI2ODk5Mzc3Nw==&mid=2247484973&idx=1&sn=e3e9df5493327c9e0897cd7033d2f96c&chksm=eae653b3dd91daa5ffefd5a6d64a23f1bed29892f171fd9e1b049b03be1ad12cd1b905c53007&mpshare=1&scene=2&srcid=&sharer_sharetime=1572920473419&sharer_shareid=fec59dc17e6d5a351fc594be948bd9f2#rd" target="_blank"><div class="img"><img src="http://szmmsns.qpic.cn/mmsns/rZ9TAJYwnRyWpS06MibZQHGajlEq4BC8MTPYfMVGwsvuG4BEY4ltZw2GBc600JHY0AqJYkbK4B9M/150" alt=""/></div><div class="text">为什么你都讲了100遍，学生还不会？<br/><span></span></div></a><div class="pic_0"></div></div>
+</div>
+                <div class="info clearfix">
+                    <span class="time">2019-11-05 10:29:15</span>
+                </div>            </div>
+        </div>
+<div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_upwsz96fsfri22.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">青子</p>
+<p class="txt">我只要38个赞，大家帮忙点个赞吧！
+			</p>
+			<a class="copy" onclick="CopyText(this,'我只要38个赞，大家帮忙点个赞吧！')" >复制文本</a>
+                    <div class="pic_1">
+<img class="pic" data-pic="2019/11/03_220548_178_1.jpg" src="2019/11/03_220548_178_1.jpg"/>
+<a class="open" onclick="CopyFile(this,'2019/11/')" >复制路径</a></div>
+                </div>
+                <div class="info clearfix">
+                    <span class="time">2019-11-03 22:05:48</span>
+                </div><div class="zan clearfix">❤ 青子 , 张彪武</div>            </div>
+        </div>
+<div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_upwsz96fsfri22.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">青子</p>
+<p class="txt">
+			</p>
+			<div class="share"><a href="http://mp.weixin.qq.com/s?__biz=MzA5MDc4ODAxNg==&mid=2658569912&idx=2&sn=227f4a90de512af4643a2bfe5a09e1d1&chksm=8b847767bcf3fe7144556bc0194394add1de241007aae90359ac1cc2bc46c4c115735f54061c&mpshare=1&scene=2&srcid=&sharer_sharetime=1572682956169&sharer_shareid=fec59dc17e6d5a351fc594be948bd9f2#rd" target="_blank"><div class="img"><img src="http://szmmsns.qpic.cn/mmsns/rZ9TAJYwnRyWpS06MibZQHBiaiaPibakaLU1E2o0Sy5pRhzibBHT5o1GlDNZhqPOiaKniaAJ0XnNpPGuZo/150" alt=""/></div><div class="text">刚刚！教育部公布：新高考过渡时期2020年高考范围出炉！<br/><span></span></div></a><div class="pic_0"></div></div>
+</div>
+                <div class="info clearfix">
+                    <span class="time">2019-11-02 16:22:45</span>
+                </div>            </div>
+        </div>
+</div>
+<div id="wz"></div>
+<script type="text/JavaScript" language="javascript">
+window.onresize = function(){
+	location.reload();
+}
+function AddImgClickEvent()
+{
+	
+	var objs = document.getElementsByClassName("pic");
+	sum = objs.length;
+	for(var i=0;i<objs.length;i++)
+	{
+		objs[i].id=i+1;
+		objs[i].onclick=function()
+		{
+			now_p = parseInt(this.getAttribute("id"))-1;
+			now_n = parseInt(this.getAttribute("id"))+1;
+			
+			//document.getElementById('f_pic').style.marginTop=0+"px";
+			document.getElementById('f_pic').src = this.getAttribute("data-pic");
+			xzpic()
+		}
+	}
+}
+function xzpic()
+{
+	document.getElementById('f_pic').style.marginTop=0+"px";
+	var windowW = document.documentElement.clientWidth;
+	if(windowW>640){
+		windowW=640;
+	}
+	var windowH = document.documentElement.clientHeight;
+	var realWidth = document.getElementById('f_pic').naturalWidth;
+	var realHeight = document.getElementById('f_pic').naturalHeight;
+	var n_h=realHeight*windowW/realWidth;
+	if(n_h<windowH){
+		document.getElementById('f_pic').style.marginTop=((windowH-n_h)/2)+ 'px';
+	}else{
+		document.getElementById('f_pic').style.marginTop=0+"px";
+	}
+	document.getElementById('light').style.display='block';
+	document.getElementById('fade').style.display='block'
+}
+AddImgClickEvent();
+function boxClickEvent()
+{
+var obj_box = document.getElementsByClassName("box");
+for(var i=0;i<obj_box.length;i++)
+	{
+		obj_box[i].index=i+1;
+		obj_box[i].onmouseover=function()
+		{
+			document.getElementById('wz').innerHTML=this.index+" / "+obj_box.length;
+		}
+	}
+}
+
+boxClickEvent();
+function next()
+{
+	if(now_n>sum) return;
+	document.getElementById('f_pic').src = document.getElementById(now_n).getAttribute("data-pic");
+	location.href = "#"+now_n;
+	xzpic();
+	now_n=now_n+1;
+	now_p=now_p+1;
+	stopBubbling(event);
+}
+function prev()
+{
+	if(now_p<1) return;
+	document.getElementById('f_pic').src = document.getElementById(now_p).getAttribute("data-pic");
+	location.href = "#"+now_p;
+	xzpic();
+	now_n=now_n-1;
+	now_p=now_p-1;
+	stopBubbling(event);
+	
+}
+function stopBubbling(e) {
+	e = window.event || e;
+	if (e.stopPropagation) {
+		e.stopPropagation();
+	} else {
+		e.cancelBubble = true;
+	}
+}
+window.onload = function(){
+	document.onkeydown = function(ev){
+	var ev = ev || window.event;
+	switch(ev.keyCode){
+		case 37://left����
+		prev();
+		break;
+		case 39://right
+		next();
+		break;
+}
+}
+}
+</script>
+</body>
+</html>

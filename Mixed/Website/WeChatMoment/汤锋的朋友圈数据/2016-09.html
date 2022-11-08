@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>2016-09_汤锋</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimal-ui">
+<style type="text/css">
+body { font-size:14px; line-height: 120%;text-align: center; color:#333;position:relative;background:#fcfcfc;}
+a { color: #333; text-decoration: none;}
+a:hover { text-decoration: none;}
+* { margin: 0; padding: 0; border: none;}
+.clearfix:after { content:"."; display:block; height:0; clear:both; visibility:hidden}
+.clearfix { *height:1%;}
+#list { margin: 0 auto; text-align: left;max-width:640px;background:#fff; box-shadow: rgba(60, 60, 60, 0.22) 0px 0px 5px;}
+.box { border-bottom: 1px solid #eee; position: relative;padding:1rem;}
+.box:hover .close { display: block;}
+.head {float: left;width:10%;height:0px;padding-bottom:10%;overflow:hidden;background-position: center;center;background-size:cover;margin-right:2%;border-radius:10%;}
+.content { float: left; width:88%;}
+.main { margin-bottom: 10px;}
+.share{background:#f7f7f7;padding:3%;vertical-align:middle;}
+.share .text{float:left;width:85%;display:inline-block;font-size:0.95rem;color:#4966b9;line-height:1.3rem;}
+.share .text span{font-size:0.8rem;line-height:28px;font-weight:0;color:#7d97e1;}
+.share .img{float:left;width:12%;margin-right:2%;display:inline-block;}
+.share .img img{width:100%;}
+.pic_0{clear:both;}
+.pic_1{overflow:hidden;max-height:40rem;}
+.pic_1 .pic{width:65%;}
+.pic_1 video{width:65%;}
+.pic_n .pic{width:32.2%;display:inline-block;height:0px;padding-bottom:32.8%;overflow:hidden;background-position: center;center;background-size:cover;}
+.pic img{width:100%;}
+.txt {line-height:1.6rem;font-size:1rem;margin-bottom:1rem;}
+.txt img{width:1.2rem;vertical-align:top;margin:0 0.1rem;margin-top:0.2rem;}
+.user { color: #295c9d; line-height:1.6rem;}
+.info { height: 20px; line-height: 19px; font-size:0.6rem; margin: 0 0 10px 0;}
+.info .time { color: #ccc; float:left; height: 20px;}
+.info .lib { color:#175bb1; float:right; height: 20px;}
+.zan {background:#fdfdfd;color:#175bb1;line-height:1.5rem;font-size:0.6rem;margin:0 5px;padding:5px;font-size:0.8rem;}
+.com {background:#fdfdfd;line-height:1.5rem;font-size:0.8rem;margin:0 5px;padding:5px;border-top:1px solid #eee;word-break:break-all;}
+.com img{width:1rem;vertical-align:top;margin:0 0.1rem;margin-top:0.3rem;}
+.com span{color:#175bb1;}
+.black_overlay{display: none;position: absolute;width: 100%;height: 100%;background-color:rgba(0,0,0,0.95);z-index: 1001;}
+.white_content{display:none;position:fixed;width:100%;height:100%;z-index:1002;overflow:auto;text-align:center;align-items: center;margin:0 auto;background-position: center;center;background-size:100%;background-repeat:no-repeat;}
+#f_pic{margin:0 auto;max-width:640px;width:100%;}
+#l_c{display:block;position:fixed;left:0;top:50%;padding:1rem;color:#fff;background:rgba(255,255,255,0.3);font-size:2rem;line-height:4rem;z-index:9999;}
+#r_c{display:block;position:fixed;right:0;top:50%;padding:1rem;color:#fff;background:rgba(255,255,255,0.3);;font-size:2rem;line-height:4rem;z-index:9999;}
+#wz{color:#175bb1;background:rgba(0,0,0,0.3);padding:10px;right:0px;top:0px;position:fixed;}
+.open{position:absolute;top:1rem;right:5rem;color:#f1f1f1;}
+.copy{position:absolute;top:1rem;right:1rem;color:#f1f1f1;}
+#input{position: absolute;top: 0;left: 0;opacity: 0;z-index: -10;}
+</style>
+<script>
+var URL = decodeURIComponent(window.location.href).replace('file:///','');
+Dir = URL.substr(0,URL.lastIndexOf("/"));
+function CopyFile(obj,filename){
+      var input = document.getElementById("input");
+      input.value = Dir+"/"+filename;
+      input.select(); 
+      document.execCommand("copy"); 
+	  if(obj.style.color=='rgb(51, 51, 51)'){
+	  obj.style.color='#f1f1f1';
+	  }else{
+	  obj.style.color='#aaa';
+	  }
+}
+function CopyText(obj,text){
+      var input = document.getElementById("input");
+      input.value = text;
+      input.select(); 
+      document.execCommand("copy"); 
+	  if(obj.style.color=='rgb(51, 51, 51)'){
+	  obj.style.color='#f1f1f1';
+	  }else{
+	  obj.style.color='#aaa';
+	  }
+}
+</script>
+</head>
+<body>
+<textarea id="input"></textarea>
+<div id="fade" class="black_overlay"></div>
+<div id="light" class="white_content" onclick="document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"><img id="f_pic" src="" style="margin-top:0;" /><div id="l_c" onclick="prev();">&lt;</div><div id="r_c" onclick="next();">&gt;</div></div>
+<div id="list"><div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_zyvzsehojaf322.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">汤锋</p>
+<p class="txt">态度决定人生高度——机信学院优秀毕业生余强工作事迹        余强，男，中共党员，1989年12月25日出生，机信学院2012届软件技术专业毕业。在校期间曾担任18栋宿舍学生党支部书记、辅导员助理等学生干部职位，现任广州迪凡企业咨询管理有限公司Android项目经理。梦想照进现实,新人也有故事        上班的第一天，怀着新生报到一般的忐忑心情来到广州一呼百应网络技术有限公司(以下简称A公司)，工作毕竟不同于上学，初来乍到第一个工作任务马上安排下来，但是凭着扎实的基础，很顺利就完成了人生的第一个挑战，这极大地提升了初入职场的信心。在后续的工作中,自己也是根据自己的爱好不断的专研新的技术，提升自己。      还记得初次到A公司面试的时候是12年初，刚刚过完春节，A公司是我面试的第一家公司，跟面试官（我的项目经理）聊了很多，也很开心，自我感觉还是非常不错的。回去后等消息都第二天了，还没有一个消息，我开始有点着急了，毕竟对A公司的印象还是非常不错的，于是我就拨打了他们的客服电话咨询情况，客服回复说帮忙问下......结果下午就接到了HR的电话，同时HR也跟我解释说其实当天就已经敲定下来，只是忙，没来的及通知我。就这样我的梦想照进了现实。态度决定人生高度        从踏出母校到现在，从一家公司到另一家公司，从技术到项目经理，从管理一个项目到管理一个地区的项目，都需要乐观，积极的工作态度，一步一个脚印，走向人生的高峰。人生的重要的转折点，是在广州市易臣信息技术有限公司(以下简称B公司),B公司主要是一家以应用软件开发为核心，提供产品、解决方案和信息服务的专业公司。主要是为企业提供“简单、实用、开放、灵活”的协同办公平台、移动办公平台、企业短信平台、企业CRM软件产品、手机应用及各种应用系统功能插件等软件产品。公司业务主要在汕尾、梅州、茂名、肇庆、韶关、湛江等地区。在该公司我实现了人生中最重要的一个转折点，我在管理韶关地区、肇庆地区、梅州地区的协同办公OA项目，还成功的从服务器端开发成功转型到Android移动项目开发。        人生第一次的创业之旅，广州迪凡企业咨询管理有限公司(以下简称C公司),起初超交易创始人黄文找到我，邀请我跟着他一起创业吧，我需要你这样人，当时我也是考虑了很久，毕竟创业者条路，我是第一次走......再一次的站在了十字路口，最后我还是决定跟着黄文走创业之路。2014年8月在珠江新城只有十几平方的办公室，只有4个人，我们就这样开始创业之旅，超交易目前已获得数千万元 Pre-A 融资，投资方是 RedRock Venture Fund、鸣客资本、Charlor Investment 以及 AngelVest 天使谷等。公司的发展也从当初的4个人发展到70多名员工，很荣幸自己也成为超交易小股东之一。
+			</p>
+			<a class="copy" onclick="CopyText(this,'态度决定人生高度 ——机信学院优秀毕业生余强工作事迹 余强，男，中共党员，1989年12月25日出生，机信学院2012届软件技术专业毕业。在校期间曾担任18栋宿舍学生党支部书记、辅导员助理等学生干部职位，现任广州迪凡企业咨询管理有限公司Android项目经理。 梦想照进现实,新人也有故事 上班的第一天，怀着新生报到一般的忐忑心情来到广州一呼百应网络技术有限公司(以下简称A公司)，工作毕竟不同于上学，初来乍到第一个工作任务马上安排下来，但是凭着扎实的基础，很顺利就完成了人生的第一个挑战，这极大地提升了初入职场的信心。在后续的工作中,自己也是根据自己的爱好不断的专研新的技术，提升自己。 还记得初次到A公司面试的时候是12年初，刚刚过完春节，A公司是我面试的第一家公司，跟面试官（我的项目经理）聊了很多，也很开心，自我感觉还是非常不错的。回去后等消息都第二天了，还没有一个消息，我开始有点着急了，毕竟对A公司的印象还是非常不错的，于是我就拨打了他们的客服电话咨询情况，客服回复说帮忙问下......结果下午就接到了HR的电话，同时HR也跟我解释说其实当天就已经敲定下来，只是忙，没来的及通知我。就这样我的梦想照进了现实。 态度决定人生高度 从踏出母校到现在，从一家公司到另一家公司，从技术到项目经理，从管理一个项目到管理一个地区的项目，都需要乐观，积极的工作态度，一步一个脚印，走向人生的高峰。人生的重要的转折点，是在广州市易臣信息技术有限公司(以下简称B公司),B公司主要是一家以应用软件开发为核心，提供产品、解决方案和信息服务的专业公司。主要是为企业提供“简单、实用、开放、灵活”的协同办公平台、移动办公平台、企业短信平台、企业CRM软件产品、手机应用及各种应用系统功能插件等软件产品。公司业务主要在汕尾、梅州、茂名、肇庆、韶关、湛江等地区。在该公司我实现了人生中最重要的一个转折点，我在管理韶关地区、肇庆地区、梅州地区的协同办公OA项目，还成功的从服务器端开发成功转型到Android移动项目开发。 人生第一次的创业之旅，广州迪凡企业咨询管理有限公司(以下简称C公司),起初超交易创始人黄文找到我，邀请我跟着他一起创业吧，我需要你这样人，当时我也是考虑了很久，毕竟创业者条路，我是第一次走......再一次的站在了十字路口，最后我还是决定跟着黄文走创业之路。2014年8月在珠江新城只有十几平方的办公室，只有4个人，我们就这样开始创业之旅，超交易目前已获得数千万元 Pre-A 融资，投资方是 RedRock Venture Fund、鸣客资本、Charlor Investment 以及 AngelVest 天使谷等。公司的发展也从当初的4个人发展到70多名员工，很荣幸自己也成为超交易小股东之一。')" >复制文本</a>
+                    <div class="pic_n">
+<span class="pic" data-pic="2016/09/27_173150_299_1.jpg" style="background-image:url(2016/09/27_173150_299_1.jpg);"></span>
+<span class="pic" data-pic="2016/09/27_173150_299_2.jpg" style="background-image:url(2016/09/27_173150_299_2.jpg);"></span>
+<a class="open" onclick="CopyFile(this,'2016/09/')" >复制路径</a></div>
+                </div>
+                <div class="info clearfix">
+                    <span class="time">2016-09-27 17:31:50</span>
+                </div>            </div>
+        </div>
+<div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_zyvzsehojaf322.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">汤锋</p>
+<p class="txt">金秋城建
+			</p>
+			<a class="copy" onclick="CopyText(this,'金秋城建')" >复制文本</a>
+                    <div class="pic_n">
+<span class="pic" data-pic="2016/09/16_104036_300_1.jpg" style="background-image:url(2016/09/16_104036_300_1.jpg);"></span>
+<span class="pic" data-pic="2016/09/16_104036_300_2.jpg" style="background-image:url(2016/09/16_104036_300_2.jpg);"></span>
+<span class="pic" data-pic="2016/09/16_104036_300_3.jpg" style="background-image:url(2016/09/16_104036_300_3.jpg);"></span>
+<span class="pic" data-pic="2016/09/16_104036_300_4.jpg" style="background-image:url(2016/09/16_104036_300_4.jpg);"></span>
+<span class="pic" data-pic="2016/09/16_104036_300_5.jpg" style="background-image:url(2016/09/16_104036_300_5.jpg);"></span>
+<span class="pic" data-pic="2016/09/16_104036_300_6.jpg" style="background-image:url(2016/09/16_104036_300_6.jpg);"></span>
+<span class="pic" data-pic="2016/09/16_104036_300_7.jpg" style="background-image:url(2016/09/16_104036_300_7.jpg);"></span>
+<span class="pic" data-pic="2016/09/16_104036_300_8.jpg" style="background-image:url(2016/09/16_104036_300_8.jpg);"></span>
+<span class="pic" data-pic="2016/09/16_104036_300_9.jpg" style="background-image:url(2016/09/16_104036_300_9.jpg);"></span>
+<a class="open" onclick="CopyFile(this,'2016/09/')" >复制路径</a></div>
+                </div>
+                <div class="info clearfix">
+                    <span class="time">2016-09-16 10:40:36</span>
+                </div>            </div>
+        </div>
+<div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_zyvzsehojaf322.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">汤锋</p>
+<p class="txt">学生有心了！
+			</p>
+			<a class="copy" onclick="CopyText(this,'学生有心了！')" >复制文本</a>
+                    <div class="pic_1">
+<img class="pic" data-pic="2016/09/10_214505_301_1.jpg" src="2016/09/10_214505_301_1.jpg"/>
+<a class="open" onclick="CopyFile(this,'2016/09/')" >复制路径</a></div>
+                </div>
+                <div class="info clearfix">
+                    <span class="time">2016-09-10 21:45:05</span>
+                </div>            </div>
+        </div>
+</div>
+<div id="wz"></div>
+<script type="text/JavaScript" language="javascript">
+window.onresize = function(){
+	location.reload();
+}
+function AddImgClickEvent()
+{
+	
+	var objs = document.getElementsByClassName("pic");
+	sum = objs.length;
+	for(var i=0;i<objs.length;i++)
+	{
+		objs[i].id=i+1;
+		objs[i].onclick=function()
+		{
+			now_p = parseInt(this.getAttribute("id"))-1;
+			now_n = parseInt(this.getAttribute("id"))+1;
+			
+			//document.getElementById('f_pic').style.marginTop=0+"px";
+			document.getElementById('f_pic').src = this.getAttribute("data-pic");
+			xzpic()
+		}
+	}
+}
+function xzpic()
+{
+	document.getElementById('f_pic').style.marginTop=0+"px";
+	var windowW = document.documentElement.clientWidth;
+	if(windowW>640){
+		windowW=640;
+	}
+	var windowH = document.documentElement.clientHeight;
+	var realWidth = document.getElementById('f_pic').naturalWidth;
+	var realHeight = document.getElementById('f_pic').naturalHeight;
+	var n_h=realHeight*windowW/realWidth;
+	if(n_h<windowH){
+		document.getElementById('f_pic').style.marginTop=((windowH-n_h)/2)+ 'px';
+	}else{
+		document.getElementById('f_pic').style.marginTop=0+"px";
+	}
+	document.getElementById('light').style.display='block';
+	document.getElementById('fade').style.display='block'
+}
+AddImgClickEvent();
+function boxClickEvent()
+{
+var obj_box = document.getElementsByClassName("box");
+for(var i=0;i<obj_box.length;i++)
+	{
+		obj_box[i].index=i+1;
+		obj_box[i].onmouseover=function()
+		{
+			document.getElementById('wz').innerHTML=this.index+" / "+obj_box.length;
+		}
+	}
+}
+
+boxClickEvent();
+function next()
+{
+	if(now_n>sum) return;
+	document.getElementById('f_pic').src = document.getElementById(now_n).getAttribute("data-pic");
+	location.href = "#"+now_n;
+	xzpic();
+	now_n=now_n+1;
+	now_p=now_p+1;
+	stopBubbling(event);
+}
+function prev()
+{
+	if(now_p<1) return;
+	document.getElementById('f_pic').src = document.getElementById(now_p).getAttribute("data-pic");
+	location.href = "#"+now_p;
+	xzpic();
+	now_n=now_n-1;
+	now_p=now_p-1;
+	stopBubbling(event);
+	
+}
+function stopBubbling(e) {
+	e = window.event || e;
+	if (e.stopPropagation) {
+		e.stopPropagation();
+	} else {
+		e.cancelBubble = true;
+	}
+}
+window.onload = function(){
+	document.onkeydown = function(ev){
+	var ev = ev || window.event;
+	switch(ev.keyCode){
+		case 37://left����
+		prev();
+		break;
+		case 39://right
+		next();
+		break;
+}
+}
+}
+</script>
+</body>
+</html>

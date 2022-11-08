@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>2016-01_青子</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimal-ui">
+<style type="text/css">
+body { font-size:14px; line-height: 120%;text-align: center; color:#333;position:relative;background:#fcfcfc;}
+a { color: #333; text-decoration: none;}
+a:hover { text-decoration: none;}
+* { margin: 0; padding: 0; border: none;}
+.clearfix:after { content:"."; display:block; height:0; clear:both; visibility:hidden}
+.clearfix { *height:1%;}
+#list { margin: 0 auto; text-align: left;max-width:640px;background:#fff; box-shadow: rgba(60, 60, 60, 0.22) 0px 0px 5px;}
+.box { border-bottom: 1px solid #eee; position: relative;padding:1rem;}
+.box:hover .close { display: block;}
+.head {float: left;width:10%;height:0px;padding-bottom:10%;overflow:hidden;background-position: center;center;background-size:cover;margin-right:2%;border-radius:10%;}
+.content { float: left; width:88%;}
+.main { margin-bottom: 10px;}
+.share{background:#f7f7f7;padding:3%;vertical-align:middle;}
+.share .text{float:left;width:85%;display:inline-block;font-size:0.95rem;color:#4966b9;line-height:1.3rem;}
+.share .text span{font-size:0.8rem;line-height:28px;font-weight:0;color:#7d97e1;}
+.share .img{float:left;width:12%;margin-right:2%;display:inline-block;}
+.share .img img{width:100%;}
+.pic_0{clear:both;}
+.pic_1{overflow:hidden;max-height:40rem;}
+.pic_1 .pic{width:65%;}
+.pic_1 video{width:65%;}
+.pic_n .pic{width:32.2%;display:inline-block;height:0px;padding-bottom:32.8%;overflow:hidden;background-position: center;center;background-size:cover;}
+.pic img{width:100%;}
+.txt {line-height:1.6rem;font-size:1rem;margin-bottom:1rem;}
+.txt img{width:1.2rem;vertical-align:top;margin:0 0.1rem;margin-top:0.2rem;}
+.user { color: #295c9d; line-height:1.6rem;}
+.info { height: 20px; line-height: 19px; font-size:0.6rem; margin: 0 0 10px 0;}
+.info .time { color: #ccc; float:left; height: 20px;}
+.info .lib { color:#175bb1; float:right; height: 20px;}
+.zan {background:#fdfdfd;color:#175bb1;line-height:1.5rem;font-size:0.6rem;margin:0 5px;padding:5px;font-size:0.8rem;}
+.com {background:#fdfdfd;line-height:1.5rem;font-size:0.8rem;margin:0 5px;padding:5px;border-top:1px solid #eee;word-break:break-all;}
+.com img{width:1rem;vertical-align:top;margin:0 0.1rem;margin-top:0.3rem;}
+.com span{color:#175bb1;}
+.black_overlay{display: none;position: absolute;width: 100%;height: 100%;background-color:rgba(0,0,0,0.95);z-index: 1001;}
+.white_content{display:none;position:fixed;width:100%;height:100%;z-index:1002;overflow:auto;text-align:center;align-items: center;margin:0 auto;background-position: center;center;background-size:100%;background-repeat:no-repeat;}
+#f_pic{margin:0 auto;max-width:640px;width:100%;}
+#l_c{display:block;position:fixed;left:0;top:50%;padding:1rem;color:#fff;background:rgba(255,255,255,0.3);font-size:2rem;line-height:4rem;z-index:9999;}
+#r_c{display:block;position:fixed;right:0;top:50%;padding:1rem;color:#fff;background:rgba(255,255,255,0.3);;font-size:2rem;line-height:4rem;z-index:9999;}
+#wz{color:#175bb1;background:rgba(0,0,0,0.3);padding:10px;right:0px;top:0px;position:fixed;}
+.open{position:absolute;top:1rem;right:5rem;color:#f1f1f1;}
+.copy{position:absolute;top:1rem;right:1rem;color:#f1f1f1;}
+#input{position: absolute;top: 0;left: 0;opacity: 0;z-index: -10;}
+</style>
+<script>
+var URL = decodeURIComponent(window.location.href).replace('file:///','');
+Dir = URL.substr(0,URL.lastIndexOf("/"));
+function CopyFile(obj,filename){
+      var input = document.getElementById("input");
+      input.value = Dir+"/"+filename;
+      input.select(); 
+      document.execCommand("copy"); 
+	  if(obj.style.color=='rgb(51, 51, 51)'){
+	  obj.style.color='#f1f1f1';
+	  }else{
+	  obj.style.color='#aaa';
+	  }
+}
+function CopyText(obj,text){
+      var input = document.getElementById("input");
+      input.value = text;
+      input.select(); 
+      document.execCommand("copy"); 
+	  if(obj.style.color=='rgb(51, 51, 51)'){
+	  obj.style.color='#f1f1f1';
+	  }else{
+	  obj.style.color='#aaa';
+	  }
+}
+</script>
+</head>
+<body>
+<textarea id="input"></textarea>
+<div id="fade" class="black_overlay"></div>
+<div id="light" class="white_content" onclick="document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"><img id="f_pic" src="" style="margin-top:0;" /><div id="l_c" onclick="prev();">&lt;</div><div id="r_c" onclick="next();">&gt;</div></div>
+<div id="list"><div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_upwsz96fsfri22.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">青子</p>
+<p class="txt">开始下大雪了
+			</p>
+			<a class="copy" onclick="CopyText(this,'开始下大雪了')" >复制文本</a>
+                    <div class="pic_n">
+<span class="pic" data-pic="2016/01/31_105653_578_1.jpg" style="background-image:url(2016/01/31_105653_578_1.jpg);"></span>
+<span class="pic" data-pic="2016/01/31_105653_578_2.jpg" style="background-image:url(2016/01/31_105653_578_2.jpg);"></span>
+<a class="open" onclick="CopyFile(this,'2016/01/')" >复制路径</a></div>
+                </div>
+                <div class="info clearfix">
+                    <span class="time">2016-01-31 10:56:53</span>
+                </div>            </div>
+        </div>
+<div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_upwsz96fsfri22.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">青子</p>
+<p class="txt">刚开始下小雪，估计会下一整天
+			</p>
+			<a class="copy" onclick="CopyText(this,'刚开始下小雪，估计会下一整天')" >复制文本</a>
+                    <div class="pic_1">
+<img class="pic" data-pic="2016/01/31_082206_579_1.jpg" src="2016/01/31_082206_579_1.jpg"/>
+<a class="open" onclick="CopyFile(this,'2016/01/')" >复制路径</a></div>
+                </div>
+                <div class="info clearfix">
+                    <span class="time">2016-01-31 08:22:06</span>
+                </div>            </div>
+        </div>
+<div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_upwsz96fsfri22.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">青子</p>
+<p class="txt">
+			</p>
+			<div class="share"><a href="http://mp.weixin.qq.com/s?__biz=MjM5MzM3NTc3NA==&mid=401415617&idx=1&sn=e2c8f719ec7ef0bd20586ff4eb6613eb&scene=2&srcid=0129IQvSktvK5cBdYtk229iO#rd" target="_blank"><div class="img"><img src="http://mmsns.qpic.cn/mmsns/JVDECnNjedF4xehNaCrsClIF9VIJ76pDqgaO1JMS7xdJBgB5xYjSxp0denT2xI5wa5NXM67qXDU/150" alt=""/></div><div class="text">40篇英语短文搞定高考3500个单词（XIII）<br/><span></span></div></a><div class="pic_0"></div></div>
+</div>
+                <div class="info clearfix">
+                    <span class="time">2016-01-29 21:28:42</span>
+                </div>            </div>
+        </div>
+<div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_upwsz96fsfri22.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">青子</p>
+<p class="txt">
+			</p>
+			<div class="share"><a href="http://mp.weixin.qq.com/s?__biz=MjM5MzM3NTc3NA==&mid=401402729&idx=1&sn=d1c68badaee4f2bc9d6a9e3b99779460&scene=2&srcid=0129SAH2PDM0GLrlyGJMYKLl#rd" target="_blank"><div class="img"><img src="http://mmsns.qpic.cn/mmsns/INk4JvWfe8Vfesbib1dVM1QlBL2A50icvqSosBrN1D9CT8sWjhoMibcR2E7hwO4N5e0zZ4znrMVMicE/150" alt=""/></div><div class="text">40篇英语短文搞定高考3500个单词（XII）<br/><span></span></div></a><div class="pic_0"></div></div>
+</div>
+                <div class="info clearfix">
+                    <span class="time">2016-01-29 19:05:06</span>
+                </div>            </div>
+        </div>
+<div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_upwsz96fsfri22.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">青子</p>
+<p class="txt">
+			</p>
+			<div class="share"><a href="http://mp.weixin.qq.com/s?__biz=MjM5MzM3NTc3NA==&mid=401386099&idx=3&sn=c978df7237f713f93e1fc6cf6b3cad18&scene=2&srcid=0129QFB8fksC7gzuxSgARXmz#rd" target="_blank"><div class="img"><img src="http://mmsns.qpic.cn/mmsns/JVDECnNjedF4xehNaCrsCne9L2jaRkINlon5mMRibWBp79RjKnD3LF2adWk9libeZrc2dkJKZGFV8/150" alt=""/></div><div class="text">40篇英语短文搞定高考3500个单词（XI）<br/><span></span></div></a><div class="pic_0"></div></div>
+</div>
+                <div class="info clearfix">
+                    <span class="time">2016-01-29 19:04:15</span>
+                </div>            </div>
+        </div>
+<div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_upwsz96fsfri22.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">青子</p>
+<p class="txt">
+			</p>
+			<div class="share"><a href="http://mp.weixin.qq.com/s?__biz=MjM5MzM3NTc3NA==&mid=401386099&idx=2&sn=f5ef696561c801c066995981c47adad3&scene=2&srcid=0128hL5kB5A5FdXNBrsycLm5#rd" target="_blank"><div class="img"><img src="http://mmsns.qpic.cn/mmsns/icFTnRoibgibpibJrAe1mibtlcvawIjEibc0IJZBPonxbgxezH41WLHzBCPZ09XzQ8ps4tZZuXJotLgicQ/150" alt=""/></div><div class="text">高考英语语法讲解——冠词<br/><span></span></div></a><div class="pic_0"></div></div>
+</div>
+                <div class="info clearfix">
+                    <span class="time">2016-01-28 18:36:02</span>
+                </div>            </div>
+        </div>
+<div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_upwsz96fsfri22.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">青子</p>
+<p class="txt">
+			</p>
+			<div class="share"><a href="http://mp.weixin.qq.com/s?__biz=MjM5MzM3NTc3NA==&mid=401375712&idx=2&sn=55dd3daf0010312f2e7c87f0591601c9&scene=2&srcid=0126SVhWCl8sc8kEfa025sPI#rd" target="_blank"><div class="img"><img src="http://mmsns.qpic.cn/mmsns/0yOibuhvkGFichA6iaUpaZ4V1PXibko81cnFiaEHNsW0XeVIjiamtge787ldHZE1KExZ9y8ZhBqmr9RVs/150" alt=""/></div><div class="text">40篇英语短文搞定高考3500个单词（X）<br/><span></span></div></a><div class="pic_0"></div></div>
+</div>
+                <div class="info clearfix">
+                    <span class="time">2016-01-26 22:09:39</span>
+                </div>            </div>
+        </div>
+<div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_upwsz96fsfri22.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">青子</p>
+<p class="txt">
+			</p>
+			<div class="share"><a href="http://mp.weixin.qq.com/s?__biz=MjM5MzM3NTc3NA==&mid=401325983&idx=2&sn=4fd97cafcf5770ae30298fedf9d4bc62&scene=2&srcid=0126s56UliN1ponAliwsKOZb#rd" target="_blank"><div class="img"><img src="http://mmsns.qpic.cn/mmsns/0yOibuhvkGFichA6iaUpaZ4V1dhibCZuOR1910ENQg7xGY2Ox2Uak2TpfXAOxibheIgfmhTgicZOFSDVg/150" alt=""/></div><div class="text">40篇英语短文搞定高考3500个单词（VIII）<br/><span></span></div></a><div class="pic_0"></div></div>
+</div>
+                <div class="info clearfix">
+                    <span class="time">2016-01-26 22:07:43</span>
+                </div>            </div>
+        </div>
+<div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_upwsz96fsfri22.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">青子</p>
+<p class="txt">
+			</p>
+			<div class="share"><a href="http://mp.weixin.qq.com/s?__biz=MjM5MzM3NTc3NA==&mid=401358320&idx=2&sn=435975d0a161f94c83de7f42681c8514&scene=2&srcid=01258NAV3LCLIWVNKTVH4hwl#rd" target="_blank"><div class="img"><img src="http://mmsns.qpic.cn/mmsns/wJibWkqN1bUNvKUdEbOTyjRHlAIdeFn1yuWNHnVHGJzaseSHFlId6phwxNbOGMjVEdWj79ib5nw0M/150" alt=""/></div><div class="text">40篇英语短文搞定高考3500个单词（IX）<br/><span></span></div></a><div class="pic_0"></div></div>
+</div>
+                <div class="info clearfix">
+                    <span class="time">2016-01-25 20:51:54</span>
+                </div>            </div>
+        </div>
+<div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_upwsz96fsfri22.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">青子</p>
+<p class="txt">
+			</p>
+			<div class="share"><a href="http://mp.weixin.qq.com/s?__biz=MzA4MzAxMjg3MA==&mid=402017034&idx=1&sn=660b9045498a22ded329d5872b177586&scene=2&srcid=0122zp6FbsJgPBSCqcauN1pf#rd" target="_blank"><div class="img"><img src="http://mmsns.qpic.cn/mmsns/WEu3fz3pGnibxRkuwQiaYEkNPGSNgtQX68lL3at77Y5EwoFPQia3ibqDk4Y5bwT9uo0Mguibr7ogPNfQ/150" alt=""/></div><div class="text">权威发布：广州一模3月16-17日、二模4月21-22日举行。3月5-6<br/><span></span></div></a><div class="pic_0"></div></div>
+</div>
+                <div class="info clearfix">
+                    <span class="time">2016-01-22 17:53:10</span>
+                </div>            </div>
+        </div>
+<div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_upwsz96fsfri22.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">青子</p>
+<p class="txt">
+			</p>
+			<div class="share"><a href="http://mp.weixin.qq.com/s?__biz=MjM5MzM3NTc3NA==&mid=401313169&idx=1&sn=82bcf63bdfd04ba65b9cd2c16e9678eb&scene=2&srcid=0121cDSPYWQETGCzOBsfjdyV#rd" target="_blank"><div class="img"><img src="http://mmsns.qpic.cn/mmsns/wJibWkqN1bUNvKUdEbOTyjYw3aTH0OpWVwaQ2XrIZs7uG3Wicb1kuWm80zVDmviaF9z9oz3CIUHbGE/150" alt=""/></div><div class="text">40篇英语短文搞定高考3500个单词（VII）<br/><span></span></div></a><div class="pic_0"></div></div>
+</div>
+                <div class="info clearfix">
+                    <span class="time">2016-01-21 21:44:40</span>
+                </div>            </div>
+        </div>
+<div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_upwsz96fsfri22.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">青子</p>
+<p class="txt">
+			</p>
+			<div class="share"><a href="http://mp.weixin.qq.com/s?__biz=MjM5MzM3NTc3NA==&mid=401302283&idx=1&sn=fe70749f98d46346f23ea54e1b96071d&scene=2&srcid=01209pGVEFYr0eMxb3SFEgKo#rd" target="_blank"><div class="img"><img src="http://mmsns.qpic.cn/mmsns/X6Ucic5kYIBPnMaDutH8u8ib0qIyic7o3EKrCYMyGTFicmaGZk3WvW1oKrjtMABjzhibIqod64jwLqpg/150" alt=""/></div><div class="text">40篇英语短文搞定高考3500个单词（\u2165）<br/><span></span></div></a><div class="pic_0"></div></div>
+</div>
+                <div class="info clearfix">
+                    <span class="time">2016-01-21 08:14:08</span>
+                </div>            </div>
+        </div>
+<div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_upwsz96fsfri22.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">青子</p>
+<p class="txt">
+			</p>
+			<div class="share"><a href="http://mp.weixin.qq.com/s?__biz=MjM5MzM3NTc3NA==&mid=401286339&idx=1&sn=1ae8948ddaa79df96d561b26d3fec4f6&scene=2&srcid=0120tTzyr1z77MSeKKSj2On4#rd" target="_blank"><div class="img"><img src="http://mmsns.qpic.cn/mmsns/JVDECnNjedF4xehNaCrsCgLrFKmC0UtiabSiaGtB5ian7EwCBZE1gksbHHmiaEyru0dbiccJpGZy7bLA/150" alt=""/></div><div class="text">40篇英语短文搞定高考3500个单词（V）<br/><span></span></div></a><div class="pic_0"></div></div>
+</div>
+                <div class="info clearfix">
+                    <span class="time">2016-01-20 18:05:00</span>
+                </div>            </div>
+        </div>
+<div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_upwsz96fsfri22.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">青子</p>
+<p class="txt">
+			</p>
+			<div class="share"><a href="http://mp.weixin.qq.com/s?__biz=MjM5MzM3NTc3NA==&mid=401275598&idx=1&sn=39dea2c7f16937b39bcfae202d4abcad&scene=2&srcid=01184413TWsR9oWwnJLn7Lat#rd" target="_blank"><div class="img"><img src="http://mmsns.qpic.cn/mmsns/JVDECnNjedF4xehNaCrsCrUVTcicw4BdMCGFNobqEtb44T3daroTLLMZnPqicFj3h6xXcxiaRgbMFw/150" alt=""/></div><div class="text">40篇英语短文搞定高考3500个单词（IV）<br/><span></span></div></a><div class="pic_0"></div></div>
+</div>
+                <div class="info clearfix">
+                    <span class="time">2016-01-18 21:07:42</span>
+                </div>            </div>
+        </div>
+<div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_upwsz96fsfri22.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">青子</p>
+<p class="txt">
+			</p>
+			<div class="share"><a href="http://mp.weixin.qq.com/s?__biz=MjM5MzM3NTc3NA==&mid=401238962&idx=3&sn=7ba5750b938f059d005aa13d9cfea24d&scene=2&srcid=0115gNKHHwAd8r3EuHJztKsY#rd" target="_blank"><div class="img"><img src="http://mmsns.qpic.cn/mmsns/PFPUMLY8F74Ku74Wr6T4Gicp2Vytf55FU45wgCs2IQdZWI2NbW1ZuI7ib4ianfhy0bQ5eb7icbVrsCQ/150" alt=""/></div><div class="text">40篇英语短文搞定高考3500个单词（\u2162）<br/><span></span></div></a><div class="pic_0"></div></div>
+</div>
+                <div class="info clearfix">
+                    <span class="time">2016-01-15 22:08:05</span>
+                </div>            </div>
+        </div>
+<div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_upwsz96fsfri22.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">青子</p>
+<p class="txt">
+			</p>
+			<div class="share"><a href="http://mp.weixin.qq.com/s?__biz=MjM5MzM3NTc3NA==&mid=401225896&idx=2&sn=34551d909810e485de13e9ade9250d42&scene=2&srcid=0114XqHRcXgMe1YZsesyqfDU#rd" target="_blank"><div class="img"><img src="http://mmsns.qpic.cn/mmsns/g9RQicMD01M1mcoOverDVJbswYmNQxCWZ2TcfsFricyyOMTqIR6tqCeA3bEsNW5mp746IZh8Fm1jM/150" alt=""/></div><div class="text">40篇英语短文搞定高考3500个单词（\u2161）<br/><span></span></div></a><div class="pic_0"></div></div>
+</div>
+                <div class="info clearfix">
+                    <span class="time">2016-01-15 10:12:21</span>
+                </div>            </div>
+        </div>
+<div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_upwsz96fsfri22.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">青子</p>
+<p class="txt">
+			</p>
+			<div class="share"><a href="http://mp.weixin.qq.com/s?__biz=MjM5MzM3NTc3NA==&mid=401215662&idx=1&sn=e54f6f7898730cfe4b7b7e44b6c65ca1&scene=2&srcid=0113xFqDMAFr9FW8x3UYIDHn#rd" target="_blank"><div class="img"><img src="http://mmsns.qpic.cn/mmsns/JVDECnNjedF4xehNaCrsCqexEMfpwTSBbrR7ViaYl5KFK6u9sM8P3XyndSKD3vtkr36iciby11A3Zo/150" alt=""/></div><div class="text">40篇英语短文搞定高考3500个单词（\u2160）<br/><span></span></div></a><div class="pic_0"></div></div>
+</div>
+                <div class="info clearfix">
+                    <span class="time">2016-01-15 10:10:49</span>
+                </div>            </div>
+        </div>
+<div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_upwsz96fsfri22.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">青子</p>
+<p class="txt">
+			</p>
+			<div class="share"><a href="http://mp.weixin.qq.com/s?__biz=MjM5MzM3NTc3NA==&mid=401205026&idx=1&sn=5278bb42256a7501c64a7a1a4935fb30&scene=2&srcid=0112Hq5bnykGcqCTwMayWubT#rd" target="_blank"><div class="img"><img src="http://mmsns.qpic.cn/mmsns/JVDECnNjedF4xehNaCrsCswR5d91VaZXyvaRQUSeqGyhn2oO6piapsqwxZ8gvHofBibB4rXJOL7yU/150" alt=""/></div><div class="text">常用动词的各种常用句型汇总（\u2161）<br/><span></span></div></a><div class="pic_0"></div></div>
+</div>
+                <div class="info clearfix">
+                    <span class="time">2016-01-12 21:38:39</span>
+                </div>            </div>
+        </div>
+<div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_upwsz96fsfri22.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">青子</p>
+<p class="txt">和2000届的学生欢度元旦，真的很开心！
+			</p>
+			<a class="copy" onclick="CopyText(this,'和2000届的学生欢度元旦，真的很开心！')" >复制文本</a>
+                    <div class="pic_n">
+<span class="pic" data-pic="2016/01/02_000324_596_1.jpg" style="background-image:url(2016/01/02_000324_596_1.jpg);"></span>
+<span class="pic" data-pic="2016/01/02_000324_596_2.jpg" style="background-image:url(2016/01/02_000324_596_2.jpg);"></span>
+<span class="pic" data-pic="2016/01/02_000324_596_3.jpg" style="background-image:url(2016/01/02_000324_596_3.jpg);"></span>
+<span class="pic" data-pic="2016/01/02_000324_596_4.jpg" style="background-image:url(2016/01/02_000324_596_4.jpg);"></span>
+<a class="open" onclick="CopyFile(this,'2016/01/')" >复制路径</a></div>
+                </div>
+                <div class="info clearfix">
+                    <span class="time">2016-01-02 00:03:24</span>
+                </div>            </div>
+        </div>
+</div>
+<div id="wz"></div>
+<script type="text/JavaScript" language="javascript">
+window.onresize = function(){
+	location.reload();
+}
+function AddImgClickEvent()
+{
+	
+	var objs = document.getElementsByClassName("pic");
+	sum = objs.length;
+	for(var i=0;i<objs.length;i++)
+	{
+		objs[i].id=i+1;
+		objs[i].onclick=function()
+		{
+			now_p = parseInt(this.getAttribute("id"))-1;
+			now_n = parseInt(this.getAttribute("id"))+1;
+			
+			//document.getElementById('f_pic').style.marginTop=0+"px";
+			document.getElementById('f_pic').src = this.getAttribute("data-pic");
+			xzpic()
+		}
+	}
+}
+function xzpic()
+{
+	document.getElementById('f_pic').style.marginTop=0+"px";
+	var windowW = document.documentElement.clientWidth;
+	if(windowW>640){
+		windowW=640;
+	}
+	var windowH = document.documentElement.clientHeight;
+	var realWidth = document.getElementById('f_pic').naturalWidth;
+	var realHeight = document.getElementById('f_pic').naturalHeight;
+	var n_h=realHeight*windowW/realWidth;
+	if(n_h<windowH){
+		document.getElementById('f_pic').style.marginTop=((windowH-n_h)/2)+ 'px';
+	}else{
+		document.getElementById('f_pic').style.marginTop=0+"px";
+	}
+	document.getElementById('light').style.display='block';
+	document.getElementById('fade').style.display='block'
+}
+AddImgClickEvent();
+function boxClickEvent()
+{
+var obj_box = document.getElementsByClassName("box");
+for(var i=0;i<obj_box.length;i++)
+	{
+		obj_box[i].index=i+1;
+		obj_box[i].onmouseover=function()
+		{
+			document.getElementById('wz').innerHTML=this.index+" / "+obj_box.length;
+		}
+	}
+}
+
+boxClickEvent();
+function next()
+{
+	if(now_n>sum) return;
+	document.getElementById('f_pic').src = document.getElementById(now_n).getAttribute("data-pic");
+	location.href = "#"+now_n;
+	xzpic();
+	now_n=now_n+1;
+	now_p=now_p+1;
+	stopBubbling(event);
+}
+function prev()
+{
+	if(now_p<1) return;
+	document.getElementById('f_pic').src = document.getElementById(now_p).getAttribute("data-pic");
+	location.href = "#"+now_p;
+	xzpic();
+	now_n=now_n-1;
+	now_p=now_p-1;
+	stopBubbling(event);
+	
+}
+function stopBubbling(e) {
+	e = window.event || e;
+	if (e.stopPropagation) {
+		e.stopPropagation();
+	} else {
+		e.cancelBubble = true;
+	}
+}
+window.onload = function(){
+	document.onkeydown = function(ev){
+	var ev = ev || window.event;
+	switch(ev.keyCode){
+		case 37://left����
+		prev();
+		break;
+		case 39://right
+		next();
+		break;
+}
+}
+}
+</script>
+</body>
+</html>

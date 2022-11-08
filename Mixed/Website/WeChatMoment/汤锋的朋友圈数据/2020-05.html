@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>2020-05_汤锋</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimal-ui">
+<style type="text/css">
+body { font-size:14px; line-height: 120%;text-align: center; color:#333;position:relative;background:#fcfcfc;}
+a { color: #333; text-decoration: none;}
+a:hover { text-decoration: none;}
+* { margin: 0; padding: 0; border: none;}
+.clearfix:after { content:"."; display:block; height:0; clear:both; visibility:hidden}
+.clearfix { *height:1%;}
+#list { margin: 0 auto; text-align: left;max-width:640px;background:#fff; box-shadow: rgba(60, 60, 60, 0.22) 0px 0px 5px;}
+.box { border-bottom: 1px solid #eee; position: relative;padding:1rem;}
+.box:hover .close { display: block;}
+.head {float: left;width:10%;height:0px;padding-bottom:10%;overflow:hidden;background-position: center;center;background-size:cover;margin-right:2%;border-radius:10%;}
+.content { float: left; width:88%;}
+.main { margin-bottom: 10px;}
+.share{background:#f7f7f7;padding:3%;vertical-align:middle;}
+.share .text{float:left;width:85%;display:inline-block;font-size:0.95rem;color:#4966b9;line-height:1.3rem;}
+.share .text span{font-size:0.8rem;line-height:28px;font-weight:0;color:#7d97e1;}
+.share .img{float:left;width:12%;margin-right:2%;display:inline-block;}
+.share .img img{width:100%;}
+.pic_0{clear:both;}
+.pic_1{overflow:hidden;max-height:40rem;}
+.pic_1 .pic{width:65%;}
+.pic_1 video{width:65%;}
+.pic_n .pic{width:32.2%;display:inline-block;height:0px;padding-bottom:32.8%;overflow:hidden;background-position: center;center;background-size:cover;}
+.pic img{width:100%;}
+.txt {line-height:1.6rem;font-size:1rem;margin-bottom:1rem;}
+.txt img{width:1.2rem;vertical-align:top;margin:0 0.1rem;margin-top:0.2rem;}
+.user { color: #295c9d; line-height:1.6rem;}
+.info { height: 20px; line-height: 19px; font-size:0.6rem; margin: 0 0 10px 0;}
+.info .time { color: #ccc; float:left; height: 20px;}
+.info .lib { color:#175bb1; float:right; height: 20px;}
+.zan {background:#fdfdfd;color:#175bb1;line-height:1.5rem;font-size:0.6rem;margin:0 5px;padding:5px;font-size:0.8rem;}
+.com {background:#fdfdfd;line-height:1.5rem;font-size:0.8rem;margin:0 5px;padding:5px;border-top:1px solid #eee;word-break:break-all;}
+.com img{width:1rem;vertical-align:top;margin:0 0.1rem;margin-top:0.3rem;}
+.com span{color:#175bb1;}
+.black_overlay{display: none;position: absolute;width: 100%;height: 100%;background-color:rgba(0,0,0,0.95);z-index: 1001;}
+.white_content{display:none;position:fixed;width:100%;height:100%;z-index:1002;overflow:auto;text-align:center;align-items: center;margin:0 auto;background-position: center;center;background-size:100%;background-repeat:no-repeat;}
+#f_pic{margin:0 auto;max-width:640px;width:100%;}
+#l_c{display:block;position:fixed;left:0;top:50%;padding:1rem;color:#fff;background:rgba(255,255,255,0.3);font-size:2rem;line-height:4rem;z-index:9999;}
+#r_c{display:block;position:fixed;right:0;top:50%;padding:1rem;color:#fff;background:rgba(255,255,255,0.3);;font-size:2rem;line-height:4rem;z-index:9999;}
+#wz{color:#175bb1;background:rgba(0,0,0,0.3);padding:10px;right:0px;top:0px;position:fixed;}
+.open{position:absolute;top:1rem;right:5rem;color:#f1f1f1;}
+.copy{position:absolute;top:1rem;right:1rem;color:#f1f1f1;}
+#input{position: absolute;top: 0;left: 0;opacity: 0;z-index: -10;}
+</style>
+<script>
+var URL = decodeURIComponent(window.location.href).replace('file:///','');
+Dir = URL.substr(0,URL.lastIndexOf("/"));
+function CopyFile(obj,filename){
+      var input = document.getElementById("input");
+      input.value = Dir+"/"+filename;
+      input.select(); 
+      document.execCommand("copy"); 
+	  if(obj.style.color=='rgb(51, 51, 51)'){
+	  obj.style.color='#f1f1f1';
+	  }else{
+	  obj.style.color='#aaa';
+	  }
+}
+function CopyText(obj,text){
+      var input = document.getElementById("input");
+      input.value = text;
+      input.select(); 
+      document.execCommand("copy"); 
+	  if(obj.style.color=='rgb(51, 51, 51)'){
+	  obj.style.color='#f1f1f1';
+	  }else{
+	  obj.style.color='#aaa';
+	  }
+}
+</script>
+</head>
+<body>
+<textarea id="input"></textarea>
+<div id="fade" class="black_overlay"></div>
+<div id="light" class="white_content" onclick="document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"><img id="f_pic" src="" style="margin-top:0;" /><div id="l_c" onclick="prev();">&lt;</div><div id="r_c" onclick="next();">&gt;</div></div>
+<div id="list"><div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_zyvzsehojaf322.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">汤锋</p>
+<p class="txt">据5月15日国家统计局公布2019年城镇平均工资数据，信息传输、软件和信息技术服务业高居榜首，年增长速度超10%。这么吃香的专业你还犹豫什么？广州城建职业学院电子商务、计算机应用技术自主招生与你相约志愿填报平台，招生代码14136，专业代码630801、610201.
+			</p>
+			<a class="copy" onclick="CopyText(this,'据5月15日国家统计局公布2019年城镇平均工资数据，信息传输、软件和信息技术服务业高居榜首，年增长速度超10%。这么吃香的专业你还犹豫什么？广州城建职业学院电子商务、计算机应用技术自主招生与你相约志愿填报平台，招生代码14136，专业代码630801、610201.')" >复制文本</a><div class="share"><a href="http://mp.weixin.qq.com/s?__biz=MzU2MzAwODEwMA==&mid=2247488993&idx=1&sn=cdc09c1db34c667beeb6b5b44a044d54&chksm=fc6192eacb161bfc8a2f252f7408d569a305ab21f554c34874d51321ba5431f53d454e1840ca&mpshare=1&scene=2&srcid=&sharer_sharetime=1590372395054&sharer_shareid=d94ebbf5edda07c0f6b4f3a8b9cea227#rd" target="_blank"><div class="img"><img src="http://szmmsns.qpic.cn/mmsns/icia8c7s32IMPkBSlbtCPHB1bPYzWwt7ibSXExOv3wVKtrIqJsZEhq7QzbdVEpPoUHpPuricL4micrsQ/150" alt=""/></div><div class="text">想成为高收入人群不？来，城建电商、计应专业自主招生带你上<br/><span>人才济济的电子商务
+多方位的计算机应用技术
+要抱就抱“信息工程学院”！</span></div></a><div class="pic_0"></div></div>
+</div>
+                <div class="info clearfix">
+                    <span class="time">2020-05-25 10:06:44</span>
+                </div>            </div>
+        </div>
+<div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_zyvzsehojaf322.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">汤锋</p>
+<p class="txt">信息工程学院“课程思政”教学案例展
+			</p>
+			<a class="copy" onclick="CopyText(this,'信息工程学院“课程思政”教学案例展')" >复制文本</a>
+                    <div class="pic_n">
+<span class="pic" data-pic="2020/05/13_121435_75_1.jpg" style="background-image:url(2020/05/13_121435_75_1.jpg);"></span>
+<span class="pic" data-pic="2020/05/13_121435_75_2.jpg" style="background-image:url(2020/05/13_121435_75_2.jpg);"></span>
+<span class="pic" data-pic="2020/05/13_121435_75_3.jpg" style="background-image:url(2020/05/13_121435_75_3.jpg);"></span>
+<a class="open" onclick="CopyFile(this,'2020/05/')" >复制路径</a></div>
+                </div>
+                <div class="info clearfix">
+                    <span class="time">2020-05-13 12:14:35</span>
+                </div>            </div>
+        </div>
+<div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_zyvzsehojaf322.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">汤锋</p>
+<p class="txt">您的世界很小，只装满了我。我的世界很大，却常常忽略了您。当回头时突然发现，岁月吹白了您两鬓的黑发。
+			</p>
+			<a class="copy" onclick="CopyText(this,'您的世界很小，只装满了我。我的世界很大，却常常忽略了您。当回头时突然发现，岁月吹白了您两鬓的黑发。')" >复制文本</a>
+                    <div class="pic_1">
+<img class="pic" data-pic="2020/05/10_020049_76_1.jpg" src="2020/05/10_020049_76_1.jpg"/>
+<a class="open" onclick="CopyFile(this,'2020/05/')" >复制路径</a></div>
+                </div>
+                <div class="info clearfix">
+                    <span class="time">2020-05-10 02:00:49</span>
+                </div>            </div>
+        </div>
+<div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_zyvzsehojaf322.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">汤锋</p>
+<p class="txt">走访红贝科技，看望实习学生，洽谈合作项目。
+			</p>
+			<a class="copy" onclick="CopyText(this,'走访红贝科技，看望实习学生，洽谈合作项目。')" >复制文本</a>
+                    <div class="pic_n">
+<span class="pic" data-pic="2020/05/07_195038_77_1.jpg" style="background-image:url(2020/05/07_195038_77_1.jpg);"></span>
+<span class="pic" data-pic="2020/05/07_195038_77_2.jpg" style="background-image:url(2020/05/07_195038_77_2.jpg);"></span>
+<span class="pic" data-pic="2020/05/07_195038_77_3.jpg" style="background-image:url(2020/05/07_195038_77_3.jpg);"></span>
+<a class="open" onclick="CopyFile(this,'2020/05/')" >复制路径</a></div>
+                </div>
+                <div class="info clearfix">
+                    <span class="time">2020-05-07 19:50:38</span>
+                </div>            </div>
+        </div>
+<div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_zyvzsehojaf322.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">汤锋</p>
+<p class="txt">告别春天，迎接夏天。
+			</p>
+			<a class="copy" onclick="CopyText(this,'告别春天，迎接夏天。')" >复制文本</a>
+                    <div class="pic_1">
+<img class="pic" data-pic="2020/05/05_004703_78_1.jpg" src="2020/05/05_004703_78_1.jpg"/>
+<a class="open" onclick="CopyFile(this,'2020/05/')" >复制路径</a></div>
+                </div>
+                <div class="info clearfix">
+                    <span class="time">2020-05-05 00:47:03</span>
+                </div>            </div>
+        </div>
+<div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_zyvzsehojaf322.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">汤锋</p>
+<p class="txt">奋斗的青春最美丽
+			</p>
+			<a class="copy" onclick="CopyText(this,'奋斗的青春最美丽')" >复制文本</a>
+                    <div class="pic_1">
+<img class="pic" data-pic="2020/05/03_235752_79_1.jpg" src="2020/05/03_235752_79_1.jpg"/>
+<a class="open" onclick="CopyFile(this,'2020/05/')" >复制路径</a></div>
+                </div>
+                <div class="info clearfix">
+                    <span class="time">2020-05-03 23:57:52</span>
+                </div>            </div>
+        </div>
+<div class="box clearfix">
+	<span class="head" style="background-image:url(images/wxid_zyvzsehojaf322.jpg);"></span>
+	<div class="content">
+		<div class="main">
+			<p class="user">汤锋</p>
+<p class="txt">劳动最美 致敬劳动者
+			</p>
+			<a class="copy" onclick="CopyText(this,'劳动最美 致敬劳动者')" >复制文本</a>
+                    <div class="pic_1">
+<img class="pic" data-pic="2020/05/01_125029_80_1.jpg" src="2020/05/01_125029_80_1.jpg"/>
+<a class="open" onclick="CopyFile(this,'2020/05/')" >复制路径</a></div>
+                </div>
+                <div class="info clearfix">
+                    <span class="time">2020-05-01 12:50:29</span>
+                </div>            </div>
+        </div>
+</div>
+<div id="wz"></div>
+<script type="text/JavaScript" language="javascript">
+window.onresize = function(){
+	location.reload();
+}
+function AddImgClickEvent()
+{
+	
+	var objs = document.getElementsByClassName("pic");
+	sum = objs.length;
+	for(var i=0;i<objs.length;i++)
+	{
+		objs[i].id=i+1;
+		objs[i].onclick=function()
+		{
+			now_p = parseInt(this.getAttribute("id"))-1;
+			now_n = parseInt(this.getAttribute("id"))+1;
+			
+			//document.getElementById('f_pic').style.marginTop=0+"px";
+			document.getElementById('f_pic').src = this.getAttribute("data-pic");
+			xzpic()
+		}
+	}
+}
+function xzpic()
+{
+	document.getElementById('f_pic').style.marginTop=0+"px";
+	var windowW = document.documentElement.clientWidth;
+	if(windowW>640){
+		windowW=640;
+	}
+	var windowH = document.documentElement.clientHeight;
+	var realWidth = document.getElementById('f_pic').naturalWidth;
+	var realHeight = document.getElementById('f_pic').naturalHeight;
+	var n_h=realHeight*windowW/realWidth;
+	if(n_h<windowH){
+		document.getElementById('f_pic').style.marginTop=((windowH-n_h)/2)+ 'px';
+	}else{
+		document.getElementById('f_pic').style.marginTop=0+"px";
+	}
+	document.getElementById('light').style.display='block';
+	document.getElementById('fade').style.display='block'
+}
+AddImgClickEvent();
+function boxClickEvent()
+{
+var obj_box = document.getElementsByClassName("box");
+for(var i=0;i<obj_box.length;i++)
+	{
+		obj_box[i].index=i+1;
+		obj_box[i].onmouseover=function()
+		{
+			document.getElementById('wz').innerHTML=this.index+" / "+obj_box.length;
+		}
+	}
+}
+
+boxClickEvent();
+function next()
+{
+	if(now_n>sum) return;
+	document.getElementById('f_pic').src = document.getElementById(now_n).getAttribute("data-pic");
+	location.href = "#"+now_n;
+	xzpic();
+	now_n=now_n+1;
+	now_p=now_p+1;
+	stopBubbling(event);
+}
+function prev()
+{
+	if(now_p<1) return;
+	document.getElementById('f_pic').src = document.getElementById(now_p).getAttribute("data-pic");
+	location.href = "#"+now_p;
+	xzpic();
+	now_n=now_n-1;
+	now_p=now_p-1;
+	stopBubbling(event);
+	
+}
+function stopBubbling(e) {
+	e = window.event || e;
+	if (e.stopPropagation) {
+		e.stopPropagation();
+	} else {
+		e.cancelBubble = true;
+	}
+}
+window.onload = function(){
+	document.onkeydown = function(ev){
+	var ev = ev || window.event;
+	switch(ev.keyCode){
+		case 37://left����
+		prev();
+		break;
+		case 39://right
+		next();
+		break;
+}
+}
+}
+</script>
+</body>
+</html>
