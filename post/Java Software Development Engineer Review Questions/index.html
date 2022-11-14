@@ -55,56 +55,66 @@
                     <hr>
                 </header>
                 <div class="neko">
-                    <p>第一部分：单选题</p>
-<p>1: 关于super的说法正确的是(C  )。<br>
+                    <h1 id="main-website001">Main-Website001</h1>
+<p>中文显示问题设置<br>
+Run--&gt;edit Configurations...<br>
+VM options设定为：<br>
+-Dfile.encoding=gbk</p>
+<h1 id="main-website002">Main-Website002</h1>
+<p>第一部分：单选题</p>
+<p>1: 关于super的说法正确的是( C )。<br>
 A、 是指当前对象的内存地址<br>
 B、 是指当前对象的父类对象的内存地址<br>
 C、 是指当前对象的父类<br>
 D、 可以用在main(  )方法中<br>
-super: 父类</p>
-<p>2: 下列关于二维数组a的结论，正确的是( A )。<br>
-int[][]  a={{1,2,3},{4,5,6,7},{8,9},{10,11,12,13,14,15}};<br>
-A、 a.length为4<br>
-B、 a[2].length为4   a[2]={8,9}  长度是2<br>
-C、 a[3][2]为9  a[3]={10,11,12,13,14,15}<br>
-D、 a[1]为5    a[1]= {4,5,6,7}</p>
+super:超级，超类，父类</p>
+<p>2: 下列关于二维数组a的结论，正确的是(A  )。<br>
+int[][]  a={{1,2,3},{4,5,6,7},{8,9},{10,11,12,13,14,15}};</p>
+<p>A、 a.length为4<br>
+B、 a[2].length为4    a[2] {8,9}    长度是2<br>
+C、 a[3][2]为9     a[3] {10,11,12,13,14,15} 12<br>
+D、 a[1]为5   a[1] {4,5,6,7}</p>
 <p>3: 设int  a=15,则运⾏a+=a运算后，a的值是( D )。<br>
 A、 0<br>
 B、 15<br>
 C、 225<br>
 D、 30<br>
-a+=a;等价于 a=a+a;<br>
-4: void的含义(A  )。<br>
+a+=a   a=a+a<br>
+4: void的含义( A )。<br>
 A、 方法没有返回值<br>
 B、 方法体为空<br>
 C、 没有意义<br>
-D、 定义方法时必须使用</p>
-<p>5: 进行Java基本的GUI设计需要用到的包是(  )。<br>
+D、 定义方法时必须使用<br>
+void : 方法的返回值为空。</p>
+<p>5: 进行Java基本的GUI设计需要用到的包是( C )。<br>
 A、 java.io<br>
 B、 java.sql<br>
 C、 java.awt<br>
 D、 java.rmi<br>
-GUI ： graphics user interface   图像用户界面<br>
-java.awt:   abstract window toolkit<br>
-javax.swing:</p>
-<p>6: 注释的基本原则不包括( D  )。<br>
+GUI：图形用户界面包: java.awt   javax.swing<br>
+Awt : abstract window toolkit<br>
+6: 注释的基本原则不包括( D )。<br>
 A、 注释应该增加代码的清晰度<br>
 B、 注释要简洁<br>
 C、 在写代码之前写注释<br>
 D、 尽量给每一条语句加注释</p>
-<p>7: 如下哪个是Java中的标识符？ (  D )<br>
+<p>7: 如下哪个是Java中的标识符？ ( D )<br>
 A、 public<br>
 B、 super<br>
 C、 3number<br>
 D、 width<br>
-JAVA标识符的命名规则：<br>
-（1）	不能用关键字<br>
-（2）	不能以数字开头<br>
-（3）	由字母、下划线、$组成<br>
-8: 下列程序片段运行的结果是( B )。<br>
-int  a  =  3,b  =  7;<br>
+标识符定义的原则：</p>
+<ol>
+<li>关键字不能作为标识符。</li>
+<li>不能以数字开头。</li>
+<li>可以是字母、下划线和$组成。</li>
+</ol>
+<p>8: 下列程序片段运行的结果是( C  )。<br>
+//传值：实参和形参占用的不是同一地址，不回回传。<br>
+int  a  =  3, b  =  7;<br>
 swap(a,b);<br>
 System.out.printf(&quot;a  =  %d,b  =  %d\n&quot;,a,b);<br>
+//交换两数<br>
 static  void  swap(int  a,int  b){<br>
 int  t;<br>
 t  =  a;<br>
@@ -116,23 +126,21 @@ B、 a = 3,b = 7<br>
 C、 a = 7,b = 3<br>
 D、 a = 7,b = 7</p>
 <p>9: 下列修饰符中与访问控制无关的是( D )。<br>
-A、 private<br>
-B、 public<br>
-C、 protected<br>
-D、 final<br>
-访问控制:public&gt;protected&gt;private<br>
-10: 假设有String  a=&quot;A&quot;;char  b='A';int  c=65，下⾯选项中( B )是正确的。<br>
-A、 if(a<mark>b) {System.out.print(&quot;Equal&quot;)}<br>
-B、 if(c</mark>b) {System.out.print(&quot;Equal&quot;)}<br>
-C、 if(a==c) {System.out.print(&quot;Equal&quot;)}<br>
-D、 if(c=b) {System.out.print(&quot;Equal&quot;)}<br>
-char和int型可以互通</p>
-<p>11: Java源文件和编译后的文件扩展名分别为( B )。<br>
+A、 private   私有的<br>
+B、 public   公有的<br>
+C、 protected   保护的<br>
+D、 final</p>
+<p>10: 假设有String  a=&quot;A&quot;; char  b='A';int  c=65，下⾯选项中( B )是正确的。   //char和int可以互通<br>
+A、 if(a<mark>b) {System.out.print(&quot;Equal&quot;);}<br>
+B、 if(c</mark>b) {System.out.print(&quot;Equal&quot;);}<br>
+C、 if(a==c) {System.out.print(&quot;Equal&quot;);}<br>
+D、 if(c=b) {System.out.print(&quot;Equal&quot;);}</p>
+<p>11: Java源文件和编译后的文件扩展名分别为(  B )。<br>
 A、 .class和.java<br>
 B、 .java和.class<br>
 C、 .class和.class<br>
 D、 .java和.java</p>
-<p>12: 下列数据定义错误的是( C )。<br>
+<p>12: 下列数据定义错误的是( C  )。<br>
 A、 float f = 5.0f;<br>
 B、 int d = (int)4.3;<br>
 C、 int c = -1.1;<br>
@@ -140,238 +148,278 @@ D、 final double PI = 3.14;</p>
 <p>13: 下列代码的执行结果是( B )。<br>
 public  class  Test3{<br>
 public  static  void  main(String  args[]){<br>
-System.out.print(100%3);   //  %: 求余数<br>
+System.out.print(100%3);   //1  求余数<br>
 System.out.print(&quot;,&quot;);<br>
-System.out.println(100%3.0);<br>
+System.out.println(100%3.0);  //1.0<br>
 }<br>
 }<br>
-1,1.0<br>
+1，1.0<br>
 A、 1,1<br>
 B、 1,1.0<br>
 C、 1.0,1<br>
 D、 1.0,1.0</p>
-<p>14: 下列数组定义中，正确的是( C  )。<br>
-A、 int a[][]=new int [10，10]<br>
+<p>14: 下列数组定义中，正确的是( C )。<br>
+A  int a[][]=new int [10，10]<br>
 B、 int a[10][10]<br>
-C、 int a[][]=new int [10][10]<br>
-D、 int a[][10]</p>
-<p>int[][] a = new int[10][10];</p>
-<p>int b[][] = new int[8][8];</p>
-<p>15: 设x为float型变量，y为double型变量，a为int型变量，b为long型变量，c为char型变量，则表达式x+y*a/x+b/y+c的值为( C )类型。<br>
+C、 int a[][]=new int [10][10]</p>
+<p>D、 int a[][10]<br>
+int[][] a = new int[10][10]<br>
+15: 设x为float型变量，y为double型变量，a为int型变量，b为long型变量，c为char型变量，则表达式x+y*a/x+b/y+c的值为(  )类型。<br>
 A、 int<br>
 B、 long<br>
 C、 double<br>
 D、 char</p>
-<p>16: Swing与aWT的区别不包括( B )。<br>
+<p>16: Swing与AWT的区别不包括( B  )。<br>
 A、 Swing是由纯Java实现的轻量级构件<br>
 B、 Swing没有本地代码<br>
-C、 Swing不依赖操作系统的支持    //跨平台<br>
+C、 Swing不依赖操作系统的支持<br>
 D、 Swing支持图形用户界面<br>
+javax.swing<br>
 java.awt<br>
-javax.swing</p>
-<p>17: 构造函数何时被调用？ ( A )<br>
+17: 构造函数何时被调用？ ( A )<br>
 A、 创建对象时<br>
 B、 类定义时<br>
 C、 使用对象的方法时<br>
-D、 使用对象的属性时</p>
-<p>18: Java是⼀种( B )程序设计语⾔。<br>
+D、 使用对象的属性时<br>
+class Student{<br>
+//构造方法<br>
+public Student(){<br>
+System.out.println(&quot;这是空构造方法&quot;);<br>
+}<br>
+}</p>
+<p>public class Test0401 {<br>
+public static void main(String[] args) {<br>
+Student s = new Student();  //创建对象<br>
+}<br>
+}<br>
+18: Java是⼀种( B )程序设计语⾔。<br>
 A、 基于对象<br>
 B、 ⾯向对象<br>
 C、 ⾯向模板<br>
 D、 基于模板</p>
-<p>19: 关于for循环和while循环的说法哪个正确？ ( D )<br>
+<p>19: 关于for循环和while循环的说法哪个正确？ ( D  )<br>
 A、 while循环先判断后执行，for循环先执行后判断<br>
 B、 while循环判断条件一般是程序结果，for循环的判断条件一般是非程序结果<br>
 C、 两种循环任何时候都不可以替换<br>
 D、 两种循环结构中都必须有循环体，循环体不能为空</p>
-<p>20: 编译Java程序的命令是( C )。<br>
+<p>20: 编译Java程序的命令是(C )。<br>
 A、 java<br>
 B、 javadoc<br>
 C、 javac<br>
 D、 cd<br>
-编译：  javac<br>
-运行：  java</p>
+编译：javac  XXX.java<br>
+运行：java  XXX</p>
 <p>21: while循环和do…while循环的区别是( D )。<br>
 A、 没有区别，这两个结构任何情况下效果一样<br>
 B、 while循环比do…while循环执行效率高<br>
 C、 while循环是先循环后判断，所以循环体至少被执行一次<br>
 D、 do…while循环是先循环后判断，所以循环体至少被执行一次</p>
-<p>22: 下面关键字中，哪一个不是用于异常处理语句？ ( B )<br>
+<p>22: 下面关键字中，哪一个不是用于异常处理语句？ (B )<br>
 A、 try<br>
 B、 break<br>
 C、 catch<br>
-D、 finally</p>
-<p>try{</p>
-<p>}catch(Excption){</p>
-<p>}finally{</p>
-<p>}<br>
-23: 关于方法main（）的说法哪个正确？<br>
+D、 finally<br>
+try{<br>
+语句块;<br>
+}catch(Exception e){<br>
+异常执行语句;<br>
+}finally{<br>
+不管是否执行异常语句，最终都会执行的语句;<br>
+}</p>
+<p>23: 关于方法main（C）的说法哪个正确？<br>
 A、 方法main（）只能放在公共类中<br>
 B、 main(  )的头定义可以根据情况任意更改<br>
 C、 一个类中可以没有main(  )方法<br>
 D、 所有对象的创建都必须放在main(  )方法中</p>
+<p>main方法的定义是固定写法，不能更改。</p>
 <p>24: 设int型变量x=1,y=2,z=3，则表达式y＋＝z－－/x++的y的值是( D )。<br>
 A、 3<br>
 B、 3.5<br>
 C、 4<br>
-D、 5</p>
-<p>25: 下列常见的系统定义的异常中，哪个是输⼊、输出异常？ （B）<br>
-A、 ClassNotFoundException : 无法找到类异常<br>
-B、 IOException ：输入输出异常<br>
-C、 FileNotFoundException: 无法找到文件异常<br>
-D、 UnknownHostException ：未知主机异常</p>
+D、 5<br>
+y+＝z--/x++    y+=3   y=y+3<br>
+++ --放在变量后面，算完表达式后再计算。<br>
+++ --放在变量前面，先计算，再算表达式。<br>
+25: 下列常见的系统定义的异常中，哪个是输⼊、输出异常？ ( B )<br>
+A、 ClassNotFoundException    无法找到类异常<br>
+B、 IOException               输入输出异常<br>
+C、 FileNotFoundException     无法找到文件异常<br>
+D、 UnknownHostException      未知主机异常</p>
 <p>26: 下列关于变量的叙述哪个是错的？ （ C ）<br>
 A、 实例变量是类的成员变量<br>
-B、 在⽅法中定义的局部变量在该⽅法被执⾏时创建：正确<br>
-C、 实例变量⽤关键字static声明：不对，用static修饰的是静态成员变量。<br>
+B、 在⽅法中定义的局部变量在该⽅法被执⾏时创建<br>
+C、 实例变量⽤关键字static声明：   静态变量<br>
 D、 局部变量在使⽤前必须被初始化</p>
 <p>27: 覆盖与重载的关系是( A )。<br>
 A、 覆盖只有发生在父类与子类之间，而重载可以发生在同一个类中<br>
 B、 覆盖方法可以不同名，而重载方法必须同名<br>
 C、 final修饰的方法可以被覆盖，但不能被重载<br>
 D、 覆盖与重载是同一回事<br>
-final修饰的方法，最终方法。最终方法不能被重写。</p>
-<p>28: Java  application中的主类需包含main方法，以下哪项是main方法的正确形参？( B )<br>
+覆盖：也叫重写。和继承有关。指子类去重写父类名字相同的方法，而且参数表相同。<br>
+重载：同一个类中，方法名相同的方法可以写多个，但是参数表不同。<br>
+28: Java  application中的主类需包含main方法，以下哪项是main方法的正确形参？ ( B  )<br>
 A、 String args<br>
-B、 String args[]<br>
+B、 String args[]     //String[] args<br>
 C、 Char arg<br>
-D、 StringBuffer args[]<br>
-String[] args<br>
-29: this和super( C )。<br>
+D、 StringBuffer args[]</p>
+<p>29: this和super(  )。<br>
 A、 都可以用在main(  )方法中<br>
 B、 都是指一个内存地址<br>
 C、 不能用在main(  )方法中<br>
 D、 意义相同<br>
-this、super关键字和static冲突的。<br>
-static方法中不允许使用this和super关键字的。<br>
-main方法是静态方法，肯定不能用this和super。<br>
-30: 下面关于main方法说明正确的是( B )。<br>
+this:本类对象的引用<br>
+super:父类对象的引用<br>
+this和super都是对象的引用，不能用在static方法中。因为静态方法中只能使用静态成员，不能使用非静态成员。main方法是静态方法，不能使用this和super。</p>
+<p>30: 下面关于main方法说明正确的是( B )。<br>
 A、 public main(String args[ ])<br>
 B、 public static void main(String args[ ])<br>
 C、 private static void main(String args[ ])<br>
 D、 void main(  )</p>
-<p>31: 作为类中新线程的开始点，线程的执⾏是从下⾯哪个⽅法开始的？ ( B )<br>
+<p>31: 作为类中新线程的开始点，线程的执⾏是从下⾯哪个⽅法开始的？ ( A )<br>
 A、 public void start(  )<br>
 B、 public void run(  )<br>
 C、 public void int(  )<br>
 D、 public static void main(String args[])</p>
-<p>32: 编写和运行Java  applet程序与编写和运行Java  application程序不同的步骤是( B  )。<br>
+<p>当Thread调用start方法启动线程，线程的run方法就会被执行。</p>
+<p>32: 编写和运行Java  applet程序与编写和运行Java  application程序不同的步骤是( B )。<br>
 A、 编写源代码<br>
 B、 编写HTML文件调用该小程序，以.html为扩展名存入相同文件夹<br>
 C、 编译过程<br>
-D、 解释执行</p>
-<p>33: File类型中定义了什么⽅法来创建多级⽬录？ (C)<br>
-A、 createNewFile<br>
-B、 exists<br>
-C、 mkdirs    make directions<br>
-D、 mkdir</p>
-<p>34: 下列容器类中哪⼀个是从java.awt.Window继承的？ (  )<br>
+D、 解释执行<br>
+applet程序是嵌入到网页中运行的java程序，必须和.html程序一起执行。<br>
+java程序执行过程：编写源代码-&gt;编译-&gt;运行<br>
+python程序执行过程：编写源代码-&gt;解释执行</p>
+<p>33: File类型中定义了什么⽅法来创建多级⽬录？ （ C ）<br>
+A、 createNewFile    创建文件<br>
+B、 exists       判断文件或目录是否存在<br>
+C、 mkdirs    make directions    创建多级目录<br>
+D、 mkdir     创建一级目录</p>
+<p>34: 下列容器类中哪⼀个是从java.awt.Window继承的？ ( A  )<br>
 A、 Frame<br>
-B、 Panel<br>
-C、 Container<br>
-D、 Applet</p>
-<p>35: Java语言使用的字符码集是(  D )。<br>
+B、 Panel     面板            java.awt.component<br>
+C、 Container 容器            java.awt.component<br>
+D、 Applet    面板的子类      java.awt.component</p>
+<p>35: Java语言使用的字符码集是( D )。<br>
 A、 ASCII<br>
 B、 BCD<br>
 C、 DCB<br>
-D、 Unicode</p>
-<p>36: 下列哪一项不属于Swing的顶层容器？ （ B ）<br>
-A、 JApplet<br>
-B、 JTree<br>
-C、 JDialog<br>
-D、 JFrame</p>
-<p>37: 下列程序段执行后的结果是(A )。<br>
+D、 Unicode      UTF-8</p>
+<p>36: 下列哪一项不属于Swing的顶层容器？ ( B )<br>
+A、 JApplet    面板的子类，肯定是容器<br>
+B、 JTree     树，不是容器<br>
+C、 JDialog   对话框，是容器<br>
+D、 JFrame    窗体，是容器<br>
+容器：它上面可以容纳其他控件。</p>
+<p>37: 下列程序段执行后的结果是( A )。<br>
 String  s  =  new  String(&quot;abcdefg&quot;);<br>
 for  (int  i=0;  i&lt;s.length(  );  i+=2){<br>
 System.out.print(s.charAt(i));<br>
 }<br>
-A、 aceg<br>
+s.charAt(i):取出下标是i的位置的字符</p>
+<p>A、 aceg<br>
 B、 ACEG<br>
 C、 abcdefg<br>
-D、 abcd<br>
-s.charAt(0)<br>
-s.charAt(2)<br>
-s.charAt(4)<br>
-s.charAt(6)<br>
-38: 为AB类的一个无形式参数无返回值的方法method书写方法头，使得使用类名AB作为前缀就可以调用它，该方法头的形式为(  )。 静态方法。<br>
+D、 abcd</p>
+<p>38: 为AB类的一个无形式参数无返回值的方法method书写方法头，使得使用类名AB作为前缀就可以调用它，该方法头的形式为( A )。<br>
 A、 static void method(  )<br>
 B、 public void method(  )<br>
 C、 final void method(  )<br>
-D、 abstract void method(  )</p>
-<p>39: 类与对象的关系是(  )。<br>
+D、 abstract void method(  )<br>
+使用类名AB作为前缀就可以调用它: 静态方法<br>
+class AB{<br>
+static void method(){<br>
+System.out.println(&quot;method方法&quot;);<br>
+}</p>
+<pre><code>void fun(){
+    System.out.println(&quot;fun方法&quot;);
+}
+</code></pre>
+<p>}</p>
+<p>public class TestStatic {<br>
+public static void main(String[] args) {<br>
+AB.method();   //静态方法可以由类名直接调用<br>
+//AB.fun();   //非静态方法不能由类名调用<br>
+AB ab = new AB();<br>
+ab.fun();<br>
+}<br>
+}</p>
+<p>39: 类与对象的关系是( A )。<br>
 A、 类是对象的抽象<br>
 B、 对象是类的抽象<br>
 C、 对象是类的子类<br>
 D、 类是对象的具体实例<br>
 类是对象的抽象，对象是类的具体实例。</p>
 <p>40: 下列关于Java多线程并发控制机制的叙述中，错误的是( C )。<br>
-A、 Java中对共享数据操作的并发控制是采⽤加锁技术<br>
-B、 线程之间的交互，提倡采⽤suspend(  )/resume(  )⽅法<br>
-C、 共享数据的访问权限都必须定义为private ： 错误，定义成public<br>
-D、 Java中没有提供检测与避免死锁的专门机制，但应⽤程序员可以采⽤某些策略防⽌死锁的发⽣</p>
+A、 Java中对共享数据操作的并发控制是采⽤加锁技术   //正确<br>
+B、 线程之间的交互，提倡采⽤suspend(  )/resume(  )⽅法  //正确暂停和唤醒的方法<br>
+C、 共享数据的访问权限都必须定义为private    //错，定义成public<br>
+D、 Java中没有提供检测与避免死锁的专门机制，但应⽤程序员可以采⽤某些策略防⽌死锁的发⽣<br>
+synchronized：放在方法前面，给一个方法加锁。一次只让一个用户去访问。<br>
+死锁: 两个线程都占有了有用得资源，都在等待对方得资源，都不释放自己的资源，导致程序停滞不前。</p>
 <p>41: 下列关于方法的说法正确的是( B )。<br>
-A、 静态方法既可调用静态方法，也可调用实例方法<br>
-B、 final修饰的方法不能被覆盖<br>
-C、 方法可以没有参数，但必须要返回值<br>
-D、 方法的参数可以为数组类型，但返回值不可以为数组类型</p>
-<p>42: Frame类对象的默认布局是( A )布局。<br>
-A、 FlowLayout布局 :流式布局<br>
-B、 BorderLayout布局<br>
-C、 CardLayout布局<br>
-D、 GridLayout布局</p>
-<p>43: 下列说法哪个正确？ （  C ）<br>
-A、 不需要定义类，就能创建对象<br>
-B、 对象中必须有属性和方法<br>
-C、 属性可以是简单变量，也可以是一个对象<br>
-D、 属性必须是简单变量</p>
+A、 静态方法既可调用静态方法，也可调用实例方法 //错误，静态方法只能访问静态成员（访问静态方法，访问静态成员变量）<br>
+B、 final修饰的方法不能被覆盖    //正确，最终方法，不能被覆盖<br>
+C、 方法可以没有参数，但必须要返回值   //错误，可以没有返回值。<br>
+D、 方法的参数可以为数组类型，但返回值不可以为数组类型 //错误，返回值也可以是数组类型。</p>
+<p>42: Frame类对象的默认布局是( A )布局。 //窗体<br>
+A、 FlowLayout布局    //流式布局<br>
+B、 BorderLayout布局  //边界布局<br>
+C、 CardLayout布局    //卡片布局<br>
+D、 GridLayout布局    //网格布局</p>
+<p>43: 下列说法哪个正确？( C  )<br>
+A、 不需要定义类，就能创建对象    //错，先定义类，再创建对象。<br>
+B、 对象中必须有属性和方法    //错，不用都有<br>
+C、 属性可以是简单变量，也可以是一个对象   //正确<br>
+D、 属性必须是简单变量   //错</p>
 <p>44: 在Java中，所有类的根类是( A )。<br>
 A、 java.lang.Object<br>
 B、 java.lang.Class<br>
 C、 java.applet.Applet<br>
 D、 java.awt.Frame</p>
-<p>45: 下列关于内存回收的说明哪个语句是正确的？ ( B )。<br>
+<p>45: 下列关于内存回收的说明哪个语句是正确的？ ( B )<br>
 A、 程序员必须创建⼀个线程来释放内存<br>
 B、 内存回收程序负责释放⽆⽤内存<br>
 C、 内存回收程序允许程序员直接释放内存<br>
-D、 内存回收程序可以在指定的时间释放内存对象</p>
+D、 内存回收程序可以在指定的时间释放内存对象<br>
+Java有自动回收垃圾功能：内存回收程序负责定期释放无用内存。</p>
 <p>46: 如果一个类的成员变量只能在所在类中使用，则该成员变量必须使用的修饰是( C )。<br>
 A、 public<br>
 B、 protected<br>
 C、 private<br>
 D、 static</p>
-<p>47: 在类的定义中构造函数的作用是( D )。<br>
+<p>47: 在类的定义中构造函数的作用是(  )。<br>
 A、 保护成员变量<br>
 B、 读取类的成员变量<br>
 C、 描述类的特征<br>
 D、 初始化成员变量</p>
-<p>48: 下面哪一个import命令可以为我们提供编写网络应用程序的类？ （ D ）<br>
-A、 import java.sql.<em>;     //数据库<br>
-B、 import java.util.</em>;    //工具包<br>
-C、 import java.io.<em>;      //输入输出<br>
+<p>48: 下面哪一个import命令可以为我们提供编写网络应用程序的类？( D )<br>
+A、 import java.sql.<em>;    //数据库编程<br>
+B、 import java.util.</em>;   //工具类包<br>
+C、 import java.io.<em>;     //输入输出<br>
 D、 import java.net.</em>;    //网络编程</p>
-<p>49: 下列程序片段运行的结果是( D )。<br>
+<p>49: 下列程序片段运行的结果是( D  )。<br>
 String  s  =  new  String(&quot;javanetbean&quot;);<br>
-for(int  i  =  0;  i&lt;s.length(  );  i+=2){System.out.print(s.charAt(i));}<br>
-charAt方法取指定位置的字符<br>
+for(int  i  =  0;  i&lt;s.length(  );  i+=2){System.out.print(s.charAt(i));}</p>
+<p>// s.charAt(i):返回i下标的字符<br>
 A、 java<br>
 B、 netbean<br>
 C、 javanetbean<br>
 D、 jvnten</p>
-<p>50: 已知如下定义：String  s  =  &quot;story&quot;;  下面哪个语句不是合法的？ ( C )<br>
-A、 s += &quot;books&quot;;    //+=就是连接  s=s+&quot;books&quot;<br>
-B、 s = s + 100;    //+用于字符串表示连接，字符串和任何类型相加变成字符串。 &quot;story100&quot;<br>
-C、 int len = s.length;   //s.length()<br>
-D、 String t = s + “abc”;</p>
-<p>51: 构造BufferedInputStream的合适参数是( B )。 //InputStream和其子类<br>
-A、 BufferedOutputStream<br>
-B、 FileInputStream<br>
-C、 FileOuterStream<br>
-D、 SockectInputStream<br>
-读入，写出。<br>
-读：输入流<br>
-写：输出流<br>
-输入流：字节输入流（InputStream）、字符输入流(Reader)<br>
-输出流：字节输出流（OutputStream）、字符输出流(Writer)</p>
+<p>50: 已知如下定义：String  s  =  &quot;story&quot;;  下面哪个语句不是合法的？ ( C  )<br>
+// String类型可以和任何其他类型相加，表示连接在一起，返回类型是String<br>
+A、 s += &quot;books&quot;;<br>
+B、 s = s + 100;<br>
+C、 int len = s.length;     // s.length()<br>
+D、 String t = s + &quot;abc&quot;;</p>
+<p>51: 构造BufferedInputStream的合适参数是( B )。<br>
+A、	BufferedOutputStream    //输出流<br>
+B、	FileInputStream         //文件输入流<br>
+C、	FileOutputStream        //输出流<br>
+D、	SockectInputStream    //没有这个类</p>
+<p>BufferedInputStream: 缓冲字节输入流<br>
+new BufferedInputStream(XXX) :  XXInputStream<br>
+输入流：读入数据<br>
+输出流：写出数据</p>
 <p>52: 在switch(expression)语句中，expression的数据类型不能是( A )。<br>
 A、 double<br>
 B、 char<br>
@@ -379,115 +427,111 @@ C、 byte<br>
 D、 short</p>
 <p>53: 下列符合Java程序标识符名命名习惯的是( A )。<br>
 A、 Boy<br>
-B、 int     //不能占用关键字<br>
-C、 4k<em>sina   //不能以数字开头，不能用</em><br>
-D、 student Grade  //不能用空格<br>
-由这些组成标识符： 大小写字母、数字、_、$</p>
-<ol>
-<li>不能以数字开头；2.不能占用关键字。<br>
-54: 下列哪个选项不是Java语⾔的注释符号？ ( D )<br>
-A、 //        单行注释<br>
-B、 /* <em>/     多行注释<br>
-C、 /</em>* */    文档注释<br>
-D、 !</li>
-</ol>
+B、 int             //不能是关键字<br>
+C、 4k*sina         //不能以数字开头<br>
+D、 student Grade   //不能由空格</p>
+<p>1.由大小写字母、数字、_ 、$ 组成。<br>
+2.不能以数字开头。<br>
+3.不能是java关键字。<br>
+54: 下列哪个选项不是Java语⾔的注释符号？ （ D ）<br>
+A、 //<br>
+B、 /* <em>/<br>
+C、 /</em>* */     //文档注释<br>
+D、 !</p>
 <p>55: 对于一个Java源文件，import,  class定义以及package正确的顺序是( A )。<br>
 A、 package,import,class<br>
 B、 class,import,package<br>
 C、 import,package,class<br>
-D、 package,class,import</p>
-<ol>
-<li>package   2.import   3.class</li>
-</ol>
-<p>56: 下列类定义中哪些是合法的抽象类的定义？ ( C  )<br>
+D、 package,class,import<br>
+package : 包，放在第1条<br>
+import：引入其他类  ， 放在最前面，但是放在package后<br>
+class : 最后写类</p>
+<p>56: 下列类定义中哪些是合法的抽象类的定义？ （ C ）<br>
 A、 abstract Animal{abstract void growl(  );}<br>
 B、 class abstract Animal{abstract void growl(  );}<br>
 C、 abstract class Animal{abstract void growl(  );}<br>
-D、 abstract class Animal{abstract void growl(  ){System.out.println(“growl”);};} //抽象方法不需要实现，不要写方法体。</p>
-<p>57: 如要抛出异常，应用下列哪种子句？ ( B )<br>
+D、 abstract class Animal{abstract void growl(  ){System.out.println(“growl”);};}  //抽象方法不能实现</p>
+<p>57: 如要抛出异常，应用下列哪种子句？ （ B ）<br>
 A、 catch<br>
 B、 throws<br>
 C、 try<br>
 D、 finally</p>
-<p>58: 关于构造函数的说法哪个正确？ ( C  )<br>
-A、 一个类只能有一个构造函数  //构造方法可以有多个。<br>
-B、 一个类可以有多个不同名的构造函数类名 //构造方法的名字是相同的，和类名一样。<br>
-C、 构造函数与类同名<br>
-D、 构造函数必须自己定义，不能使用父类的构造函数 //可以使用父类构造方法，用super()调用</p>
+<p>58: 关于构造函数的说法哪个正确？ （ C ）<br>
+A、 一个类只能有一个构造函数    //错，可以有多个。<br>
+B、 一个类可以有多个不同名的构造函数类名  //错，构造函数名和类名必须相同。<br>
+C、 构造函数与类同名 //对。<br>
+D、 构造函数必须自己定义，不能使用父类的构造函数 //错，可以调用父类的构造函数。用super去调用。</p>
 <p>59: 下⾯哪个⽅法可以在任何时候被任何线程调⽤？ ( D )<br>
-A、 notify(  )<br>
-B、 wait(  )<br>
-C、 notifyAll(  )<br>
-D、 sleep()   //线程沉睡，任何时候都可以调用。<br>
-wait:等待<br>
-notify:唤醒<br>
-notifyAll：唤醒所有进程<br>
-以上3个方法执行都必须至少有2个线程。<br>
-60: Java中⽤于定义接⼝的关键字是( D )。<br>
+A、 notify(  )    //唤醒，至少有2个线程<br>
+B、 wait(  )      //等待，至少有2个线程<br>
+C、 notifyAll(  ) //唤醒所有等待的线程，至少有2个线程<br>
+D、 sleep(  )     //线程沉睡，随时执行。</p>
+<p>60: Java中⽤于定义接⼝的关键字是( D )。<br>
 A、 import<br>
 B、 package<br>
 C、 class<br>
 D、 interface</p>
-<p>61: java.io包的File类是( D )。<br>
-A、 字符流类   Reader（字符输入流）  Writer（字符输出流）<br>
-B、 字节流类   InputStream(字节输入流)  OutputStream（字节输出流）<br>
-C、 对象流类    ObjectInputStream   ObjectOutputStream<br>
-D、 非流类<br>
-File： 文件类</p>
+<p>61: java.io包的File类是( D )。    //File是文件类<br>
+A、 字符流类<br>
+B、 字节流类<br>
+C、 对象流类<br>
+D、 非流类</p>
 <p>62: 下列说法正确的是( A )。<br>
-A、 JAVA程序的main⽅法必须写在类⾥⾯  //正确，所有的方法都要写在类中。<br>
-B、 JAVA程序中可以有多个main⽅法   //错误，一个程序只能有一个main方法，main方法是程序的入口。<br>
-C、 JAVA程序中类名必须与⽂件名⼀样   //错误，不一定。<br>
-D、 JAVA程序的main⽅法中如果只有⼀条语句，可以不⽤{}(⼤括号)括起来 //错误，一条语句也必须用{}</p>
-<p>63: 如果需要从文件中读取数据，则可以在程序中创建哪一个类的对象？ （A ）<br>
-A、 FileInputStream     //输入流<br>
-B、 FileOutputStream    //输出流<br>
-C、 DataOutputStream    //输出流<br>
-D、 FileWriter          //输出流<br>
-读入，写出。意思是：读取数据和输入流有关，写数据和输出流有关。<br>
-64: 在编写Java  applet程序时，若需要对发生事件作出响应和处理，一般需要在程序的开头写上( D )语句。<br>
+A、 JAVA程序的main⽅法必须写在类⾥⾯  //对，所有的方法必须包含在类里面<br>
+B、 JAVA程序中可以有多个main⽅法    //错，main是程序入口，1个程序中只有1个。<br>
+C、 JAVA程序中类名必须与⽂件名⼀样  //错，一个文件中可以包含多个类，不是每个类都和文件名相同。<br>
+D、 JAVA程序的main⽅法中如果只有⼀条语句，可以不⽤{}(⼤括号)括起来   //错，必须用{}</p>
+<p>63: 如果需要从文件中读取数据，则可以在程序中创建哪一个类的对象？ ( A )<br>
+A、 FileInputStream     //文件输入流<br>
+B、 FileOutputStream    //文件输出流（字节流）<br>
+C、 DataOutputStream    //数据输出流<br>
+D、 FileWriter          //文件输出流（字符流）<br>
+读入，写出。<br>
+64: 在编写Java  applet程序时，若需要对发生事件作出响应和处理，一般需要在程序的开头写上(  )语句。<br>
 A、 import java.awt.<em>;<br>
 B、 import java.applet.</em>;<br>
 C、 import java.io.<em>;<br>
-D、 import java.awt.event.</em>;<br>
-//对事件做出处理，event包。</p>
+D、 import java.awt.event.</em>;    //事件包</p>
 <p>65: java.io包中定义了多个流类型来实现输入和输出功能，可以从不同的角度对其进行分类，按功能分为( C )。<br>
 A、 输入流和输出流（方向）<br>
 B、 字节流和字符流（内容）<br>
 C、 节点流和处理流（分工）</p>
-<p>66: 如下哪个是Java中的关键字？ ( C )<br>
+<p>66: 如下哪个是Java中的关键字？ ( C  )<br>
 A、 name<br>
 B、 hello<br>
-C、<br>
+C、 class<br>
 D、 good</p>
-<p>67: 异常包含下列哪些内容？ ( A )<br>
+<p>67: 异常包含下列哪些内容？ ( A  )<br>
 A、 程序执行过程中遇到的事先没有预料到的情况<br>
 B、 程序中的语法错误<br>
 C、 程序的编译错误<br>
-D、 以上都是</p>
-<p>68: 关于awt和swing说法正确的是( D )。<br>
-A、 awt在不同操作系统中显⽰相同的风格 //swing才是<br>
-B、 swing在不同的操作系统中显⽰不相同的风格  //awt才是<br>
-C、 awt是swing的⼦类  //java.awt.*   javax.swing.*  没有从属关系。<br>
-D、 awt和swing都⽀持事件模型 //正确</p>
-<p>69: System类在哪个包中？ ( D )<br>
-A、 java.util<br>
-B、 java.io<br>
-C、 java.awt<br>
-D、 java.lang    //被自动引入</p>
-<p>70: 下列哪项是Java的转义字符？ ( C )<br>
+D、 以上都是<br>
+异常：Exception<br>
+错误: Error<br>
+68: 关于awt和swing说法正确的是( D  )。<br>
+A、 awt在不同操作系统中显⽰相同的风格  //错，swing才是。<br>
+B、 swing在不同的操作系统中显⽰不相同的风格 //错，awt才是<br>
+C、 awt是swing的⼦类   //错，没有父子关系<br>
+D、 awt和swing都⽀持事件模型   //正确，都支持事件模型。<br>
+// java.awt.<em>：传统包，不具备跨平台性。   Frame  Panel<br>
+// javax.swing.</em>: 轻量级控件包，可以跨平台。  JFrame  JPanel<br>
+windowClosing():窗体正在关闭是发生的事件。<br>
+69: System类在哪个包中？ ( D )<br>
+A、 java.util   //工具包  Scanner   Math<br>
+B、 java.io     //输入输出包    InputStream<br>
+C、 java.awt    //图形用户界面的包   Frame  Panel  Button<br>
+D、 java.lang    //初始包，不需用import,自动引入。</p>
+<p>70: 下列哪项是Java的转义字符？ ( C  )<br>
 A、 ｜t<br>
 B、 !r<br>
 C、 \b<br>
 D、 &amp;n<br>
-转义字符: 以“\”开头的，具体特定意义的字符。<br>
-\n   换行<br>
-\t   制表<br>
-71: 下列说法哪个正确？ ( A  )<br>
-A、 一个程序可以包含多个源文件  //正确<br>
-B、 一个源文件中只能有一个类   //错误，可以有多个类<br>
-C、 一个源文件中可以有多个公共类puclic   //错误，最多有一个public的类。<br>
-D、 一个源文件只能供一个程序使用   //错误，只需要用import语句引入就可以被其他源文件使用。</p>
+转义字符以“\”开头，具有特殊功能。  \n  换行    \t  制表</p>
+<p>71: 下列说法哪个正确？<br>
+A、 一个程序可以包含多个源文件<br>
+B、 一个源文件中只能有一个类<br>
+C、 一个源文件中可以有多个公共类puclic<br>
+D、 一个源文件只能供一个程序使用</p>
 <p>72: 执⾏代码String[]  s=new  String[10]后,哪个结论是正确的？<br>
 A、 s[10]为&quot;&quot;<br>
 B、 s[9]为null<br>
@@ -559,7 +603,7 @@ A、 子类将继承父类所有的属性和方法<br>
 B、 子类将继承父类的非私有属性和方法<br>
 C、 子类只继承父类public方法和属性<br>
 D、 子类只继承父类的方法，而不继承属性</p>
-<p>85: 关于选择结构下列哪个说法正确？<br>
+<p>85: 关于选择结构下列哪个说法正确？ （  ）<br>
 A、 if语句和else语句必须成对出现<br>
 B、 if语句可以没有else语句对应<br>
 C、 switch结构中每个case语句中必须用break语句<br>
@@ -699,7 +743,10 @@ D、 .txt</p>
 (2) 在“文件”菜单里添加三个菜单项“打开”、“保存”、“关闭”；<br>
 (3) 在“编辑”菜单里添加两个菜单项“复制”、“粘贴”；<br>
 (4) 点击关闭菜单项时，使程序关闭。 说明：把文字写在word中！<br>
-注意：完成题目后关闭软件，把答题结果压缩后上交，否则该题视为无效！</p>
+注意：完成题目后关闭软件，把答题结果压缩后上交，否则该题视为无效！<br>
+MenuBar:菜单栏<br>
+Menu：菜单   “文件”、“编辑”<br>
+MenuItem:菜单项  打开”、“保存”、“关闭”  “复制”、“粘贴”</p>
 <p>111: 设计题：设计一个Calculator类，并完成下列的各方法的程序设计并测试：<br>
 （1）定义add(  )方法，用来计算两数(a,b)之和。<br>
 （2）定义sub(  )方法，用来计算两数(a,b)之差。<br>
@@ -708,6 +755,7 @@ D、 .txt</p>
 说明：把文字写在word中！<br>
 注意：完成题目后关闭软件，把答题结果压缩后上交，否则该题视为无效！</p>
 <p>import java.util.Scanner;<br>
+//计算器<br>
 class Calculator{<br>
 public static double add(double a,double b){<br>
 return a+b;<br>
@@ -722,16 +770,16 @@ public static double div(double a,double b){<br>
 return a/b;<br>
 }<br>
 }<br>
-public class Test0803 {<br>
+public class Test0902 {<br>
 public static void main(String[] args) {<br>
-Scanner scanner = new Scanner(System.in);<br>
+Scanner scanner = new Scanner(System.in);          //输入2个double型数字<br>
 System.out.println(&quot;请输入2个数：&quot;);<br>
 double a = scanner.nextDouble();<br>
 double b = scanner.nextDouble();<br>
-System.out.println(&quot;两数求和：&quot;+Calculator.add(a,b));<br>
-System.out.println(&quot;两数相减：&quot;+Calculator.sub(a,b));<br>
-System.out.println(&quot;两数乘积：&quot;+Calculator.mul(a,b));<br>
-System.out.println(&quot;两数相除：&quot;+Calculator.div(a,b));<br>
+System.out.println(a+&quot;和&quot;+b+&quot;的和是：&quot;+Calculator.add(a,b));         //计算输出<br>
+System.out.println(a+&quot;和&quot;+b+&quot;的差是：&quot;+Calculator.sub(a,b));<br>
+System.out.println(a+&quot;和&quot;+b+&quot;的积是：&quot;+Calculator.mul(a,b));<br>
+System.out.println(a+&quot;和&quot;+b+&quot;的商是：&quot;+Calculator.div(a,b));<br>
 }<br>
 }</p>
 <p>112: 设计题：按以下要求编写程序<br>
@@ -739,113 +787,87 @@ System.out.println(&quot;两数相除：&quot;+Calculator.div(a,b));<br>
 （2）在Rectangle中添加两种方法分别计算矩形的周长和面积；<br>
 （3）编程利用Rectangle输出一个矩形的周长和面积。<br>
 说明：把文字写在word中！<br>
-注意：完成题目后关闭软件，把答题结果压缩后上交，否则该题视为无效！<br>
-import javafx.scene.shape.Arc;</p>
-<p>import java.util.Scanner;</p>
-<p>class Rectangle {</p>
-<pre><code>private double width;
-
-private double height;
-
-
-
-public Rectangle(double width,double height){
-
-    this.width = width;
-
-    this.height = height;
-
-}
-
-public double getLength(){
-
-    return 2*(width+height);
-
-}
-
-public double getArea(){
-
-    return width*height;
-
-}
-</code></pre>
-<p>}</p>
-<p>public class Test {</p>
-<pre><code>public static void main(String[] args) {
-
-    Scanner scanner = new Scanner(System.in);
-
-    System.out.println(&quot;请输入矩形的宽和高&quot;);
-
-    double width = scanner.nextDouble();
-
-    double height = scanner.nextDouble();
-
-    Rectangle rectangle = new Rectangle(width,height);
-
-    System.out.println(&quot;宽是&quot;+width+&quot;高是&quot;+height+&quot;的矩形的周长：&quot;+rectangle.getLength());
-
-    System.out.println(&quot;宽是&quot;+width+&quot;高是&quot;+height+&quot;的矩形的面积：&quot;+rectangle.getArea());
-
-}
-</code></pre>
-<p>}</p>
-<p>113: 设计题:请编写程序，实现对数组int a[]=new a[5];从键盘随意输入5个值，进行从小到大排序，并在控制台窗口输出排完序的结果。<br>
+注意：完成题目后关闭软件，把答题结果压缩后上交，否则该题视为无效！</p>
+<p>/*   Ctrl+Shift+/:注释<br>
+112: 设计题：按以下要求编写程序<br>
+（1）创建一个Rectangle类，添加width和height两个成员变量；<br>
+（2）在Rectangle中添加两种方法分别计算矩形的周长和面积；<br>
+（3）编程利用Rectangle输出一个矩形的周长和面积。<br>
 说明：把文字写在word中！<br>
 注意：完成题目后关闭软件，把答题结果压缩后上交，否则该题视为无效！<br>
-import java.util.Scanner;</p>
-<p>public class Test2 {</p>
-<pre><code>public static void main(String[] args) {
-
-    int[] a = new int[5];
-
-    Scanner scanner = new Scanner(System.in);
-
-    System.out.println(&quot;请输入五个数:&quot;);
-
-    for(int i=0;i&lt;a.length;i++){
-
-        a[i]=scanner.nextInt();
-
-    }
-
-
-
-    int temp;
-
-    for(int j = 0;j &lt; a.length - 1;j++){
-
-        for(int i = 0;i &lt; a.length - 1 - j;i++){
-
-            if(a[i] &gt; a[i + 1]){
-
-                temp = a[i];
-
-                a[i] = a[i + 1];
-
-                a[i + 1] = temp;
-
-            }
-
-        }
-
-    }
-
-
-
-
-
-    System.out.println(&quot;排序后数组的值：&quot;);
-
-    for(int i=0;i&lt;a.length;i++){
-
-        System.out.print(a[i]+&quot; &quot;);
-
-    }
-
-}
-</code></pre>
-<p>}</p>
+<em>/<br>
+import java.util.Scanner;<br>
+//矩形类<br>
+class Rectangle{<br>
+private double width;   //宽<br>
+private double height;  //高<br>
+//构造方法<br>
+public Rectangle(double width,double height){<br>
+this.width = width;<br>
+this.height = height;<br>
+}<br>
+//求周长<br>
+public double getLength(){<br>
+return 2</em>(width+height);<br>
+}<br>
+//求面积<br>
+public double getArea(){<br>
+return width*height;<br>
+}<br>
+}<br>
+//测试类<br>
+public class Test1001 {<br>
+public static void main(String[] args) {<br>
+//1.输入宽和高<br>
+Scanner scanner = new Scanner(System.in);<br>
+System.out.println(&quot;请输入矩形的宽和高：&quot;);<br>
+double width = scanner.nextDouble();   //读入<br>
+double height = scanner.nextDouble();<br>
+//2.实例化矩形对象<br>
+Rectangle rectangle = new Rectangle(width,height);<br>
+//3.计算<br>
+System.out.println(&quot;宽是&quot;+width+&quot;,高是&quot;+height+&quot;的矩形的周长是：&quot;+rectangle.getLength());   //Ctrl+D:往下拷贝<br>
+System.out.println(&quot;宽是&quot;+width+&quot;,高是&quot;+height+&quot;的矩形的面积是：&quot;+rectangle.getArea());   //Ctrl+D:往下拷贝<br>
+}<br>
+}</p>
+<p>113: 设计题:请编写程序，实现对数组int a[]=new int[5];从键盘随意输入5个值，进行从小到大排序，并在控制台窗口输出排完序的结果。<br>
+说明：把文字写在word中！<br>
+注意：完成题目后关闭软件，把答题结果压缩后上交，否则该题视为无效！<br>
+/*<br>
+113: 设计题:请编写程序，实现对数组int a[]=new int[5];<br>
+从键盘随意输入5个值，进行从小到大排序，并在控制台窗口输出排完序的结果。<br>
+说明：把文字写在word中！<br>
+注意：完成题目后关闭软件，把答题结果压缩后上交，否则该题视为无效！<br>
+*/<br>
+import java.util.Scanner;<br>
+public class BubbleSort {<br>
+public static void main(String[] args) {<br>
+int[] a = new int[5];  //定义数组<br>
+//输入数组的值<br>
+Scanner scanner = new Scanner(System.in);<br>
+System.out.println(&quot;请输入5个整数：&quot;);<br>
+for(int i=0;i&lt;a.length;i++){<br>
+a[i] = scanner.nextInt();<br>
+}<br>
+//冒泡排序<br>
+//1.第1趟排序<br>
+int temp;   //放交换的数<br>
+for(int j=0;j&lt;a.length-1;j++) {<br>
+for (int i = 0; i &lt; a.length - 1 - j; i++) {<br>
+if (a[i] &gt; a[i + 1]) {<br>
+temp = a[i];<br>
+a[i] = a[i + 1];<br>
+a[i + 1] = temp;<br>
+}<br>
+}<br>
+}<br>
+//输出数组的值<br>
+System.out.println(&quot;排序后数组的值：&quot;);<br>
+for(int i=0;i&lt;a.length;i++){<br>
+System.out.print(a[i]+&quot; &quot;);<br>
+}<br>
+}<br>
+}</p>
 <p>第三部分：判断题<br>
 114: jdk命令中，javac用来执行java程序，而java用来编译源代码。<br>
 115: String不是基本数据类型，且此类型的字符串是不可修改的。<br>
