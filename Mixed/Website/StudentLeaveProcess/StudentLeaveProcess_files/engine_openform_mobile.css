@@ -1,0 +1,178 @@
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,p,blockquote,th,td{margin:0;padding:0;font-size:9pt;font-family:"微软雅黑","宋体";}
+img,body,html{border:0;background-color:#fff;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
+.fieldShow{color:blue}
+
+/*chrome 样式定义 */
+input,button,select,textarea,div,span,td{outline:none}
+textarea{resize:none}
+
+/*mobile start */
+.topbar{position:fixed;top:0;width:100%;height:35px;background:#0092dc;color:#fff;font-size:16px;font-weight:bold;margin:0;BORDER-BOTTOM: #0092dc 1px outset;text-align:center;}
+.topbar a{color:#fff}
+.btn{
+  display: block;
+  font-size: 15px;
+  text-decoration: none!important;
+  padding: 4px 6px;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  box-shadow: inset 0px 0px 2px #fff;
+  width:35px;
+  text-align:center;
+}
+
+input[size]{height:20px;border:1px solid #2391E7;width:80%}
+input[exttype]{height:20px;border:1px solid #ccc;width:60%}
+input[exttype="date"]{height:20px;border:1px solid #ccc;width:40%}
+
+.linkeytable td.texttd{width:15%;min-width:70px;text-align:right;background:#f9f9f9;font-size:9pt;font-family:"微软雅黑","宋体";}
+
+/*mobile end */
+
+a {font-size:9pt;font-family:"微软雅黑","宋体";color: #00457D; text-decoration: none}
+a:hover {color: #FF0000; text-decoration: none;font-family:"微软雅黑","宋体"}
+textarea{overflow:auto;border:1px solid #ccc;width:90%}
+select {border:1px solid #ccc;}
+form{margin:0px}
+
+.toptoolbar{padding:2px;border:1px solid #ddd;background:#F8F8F8;}
+.toptoolbarhr{height:2px;}
+.lschk_ie6{border:0px;height:13px;width:13px}
+.linkeytable{border-collapse:collapse;border: 1px solid #cccccc;width:100%;font-size:9pt;}
+.linkeytable td{border-collapse:collapse;height:40px; border:1px solid #3EADE5; padding:2px 10px; font-size:14px;font-family:"微软雅黑","宋体";color:#444;}
+.linkeytable td.texttd{text-align:right;background: rgb(221, 234, 255);font-size:12px;font-weight:bold;font-family:"微软雅黑","宋体";padding-right:10px;color:#333;width:15%;}
+.lytable{border-collapse:collapse;border: 1px solid #000;margin:0 auto;font-size:9pt;width: 100%;}
+.lytable td{border-collapse:collapse;height:40px; border:1px solid #000; padding:2px 8px; font-size:14px;font-family:"微软雅黑","宋体";color:#000;}
+.lytable td.title{text-align:right;background:#000;font-size:14px;font-weight:bold;font-family:"微软雅黑","宋体"; padding-right:10px;color:#000;}
+
+.lytable_green{border-collapse:collapse;border: 1px solid #0a803a;margin:0 auto;font-size:9pt;width: 100%;}
+.lytable_green td{border-collapse:collapse;height:40px; border:1px solid #0a803a; padding:2px 8px; font-size:14px;font-family:"微软雅黑","宋体";color:#000;}
+.lytable_green td .title{text-align:right;font-size:14px;font-family:"微软雅黑","宋体"; padding-right:10px;color:#0a803a;}
+.lytable_red{border-collapse:collapse;border: 1px solid red;margin:0 auto;font-size:9pt;width: 100%;}
+.lytable_red td{border-collapse:collapse;height:40px; border:1px solid red; padding:2px 8px; font-size:14px;font-family:"微软雅黑","宋体";color:#000;}
+.lytable_red td.title{text-align:right;font-size:14px;font-family:"微软雅黑","宋体"; padding-right:10px;color:red;}
+
+
+.CollapseSubForm{color:#0099FF;padding-left:20px;cursor:pointer;background:url(../images/icons/collapse.gif) no-repeat left top}
+.ExpandSubForm{color:#0099FF;padding-left:20px;cursor:pointer;background:url(../images/icons/ns-expand.gif) no-repeat left top}
+.ApprovalForm{padding-top:10px}
+
+/*审批处理单样式定义*/
+.ApprovalMsg{padding-left:15px;color:#0099FF;width:90%;font-size:9pt;cursor:default;font-family:"微软雅黑","宋体";background:url(../images/icons/ns-expand.gif) no-repeat left}
+.ApprovalBottom{padding-top:10px;padding-right:5px;padding-bottom:12px;font-size:9pt;font-family:"微软雅黑","宋体";}
+.ApprovalBottom a{text-decoration: underline;font-family:"Myriad Pro","Myriad Web","Tahoma","Helvetica","Arial",sans-serif;}
+.ApprovalBottom a:hover{color: #FF0000;text-decoration: none;font-family:"Myriad Pro","Myriad Web","Tahoma","Helvetica","Arial",sans-serif;}
+.Approvaltable{border-collapse:collapse;border: 1px solid #3EADE5;width:100%;font-size:9pt;font-family:"微软雅黑","宋体"}
+.Approvaltable td{border-collapse:collapse;border: 1px solid #3EADE5;padding:4px;font-size:9pt;font-family:"微软雅黑","宋体"}
+.Approvaltable td.texttd{text-align:right;background:rgb(221, 234, 255);font-family:"微软雅黑","宋体"}
+.ApprovalToptable td{color:#3EADE5;font-size:9pt;font-family:"微软雅黑","宋体";}
+.ApprovalToptable a{color: #cc3300; text-decoration: underline;font-family:"微软雅黑","宋体"}
+.ApprovalCurNode{color:#0066cc;}
+.ApprovalTopBtn td{color:#ffffff;font-size:12px;font-weight:bold; font-family:"微软雅黑","宋体";}
+.ApprovalTopBtn a{color: #FFFFFF;font-size:12px; font-weight:bold; cursor:pointer; text-decoration:none;font-family:"微软雅黑","宋体"}
+
+/* 李文波  手机用户选择器 */
+.user_selected {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.user_selected ul {
+  list-style-type: none;
+}
+
+.user_selected ul li {
+  display:block;
+  height: 40px;
+  border: solid 1px #eee;
+  padding: 5px 0 5px 10px;
+  text-align: left;
+  line-height: 40px;
+  border-radius:5px;
+  box-shadow: 1px 1px 1px #888888;
+}
+
+.user_selected ul li.user {
+  background-color: #fefefe;
+}
+
+.user_selected ul li .text {
+  padding-left: 10px;
+}
+
+.user_selected ul li:hover {
+  background-color: #ddd;
+
+}
+
+.user_selected .search {
+  height: 40px;
+  width: 100%;
+  border-radius: 20px;
+  border: solid 1px #eee;
+}
+
+.user_selected .search_box {
+  width: 100%;
+  height: 40px;
+  border: 0px;
+  border-radius: 20px;
+  padding-left: 20px;
+}
+
+.user_selected .selected_user {
+  min-height: 40px;
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #eee;
+  background-color: #eee;
+}
+
+.user_selected .tip_selected_user {
+	color: blue;
+	line-height: 40px;
+}
+
+.user_selected .user_link {
+  margin: 0 5px;
+  cursor:hand;
+}
+
+.user_selected .user_link a {
+  text-decoration:none;
+  color: #456f9a;
+}
+
+.user_selected .user_link span {
+  padding: 0 2px;
+  line-height: 40px;
+  color: #456f9a;
+}
+
+
+.user_selected .top-tool {
+	background-color: #456f9a;
+	height: 40px;
+}
+
+.user_selected .top-tool a {
+	line-height: 18px;
+	text-decoration: none;
+	width: 30px;
+	height: 18px;
+	background-color: #456f9a;
+	padding: 10px;
+	border-radius: 5px;
+	color: white;
+	font-weight: 700;
+	border: 1px solid #98a2b1;
+}
+
+a.btn_ok {
+	float: right;
+}
+
+a.btn_cannel {
+	float: left;
+}
